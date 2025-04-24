@@ -1,0 +1,27 @@
+FROM debian:bookworm
+
+# Installer les dépendances
+RUN apt update && apt install -y \
+    curl gnupg2 ca-certificates lsb-release \
+    build-essential libpcre3 libpcre3-dev zlib1g zlib1g-dev \
+    libssl-dev wget unzip
+
+# Télécharger et extraire Nginx et NAXSI
+RUN mkdir -p /usr/src/nginx && cd /usr/src/nginx && \
+    wget http://nginx.org/download/nginx-1.24.0.tar.gz && \
+    wget https://github.com/wargio/naxsi/archive/refs/tags/1.4.tar.gz
+    tar -xzf nginx-1.24.0.tar.gz && \
+    tar -xzf 1.4.tar.gz
+
+# Compiler Nginx avec NAXSI
+WORKDIR /usr/src/nginx/nginx-1.24.0
+RUN ./configure --add-module=../naxsi-1.4 --prefix=/etc/nginx && \
+    make && make install
+
+# Copier la configuration de Nginx et NAXSI
+COPY config/nginx.conf /etc/nginx/nginx.conf
+COPY config/naxsi.rules /etc/nginx/naxsi.rules
+
+# Définir le point d'entrée
+CMD ["/etc/nginx/sbin/nginx", "-g", "daemon off;"]
+

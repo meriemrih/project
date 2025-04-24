@@ -1,0 +1,59 @@
+  misp:
+    image: coolacid/misp-docker:core-latest
+    container_name: misp
+    restart: unless-stopped
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.1.14
+    depends_on:
+      - redis
+      - db_misp
+    ports:
+      - "8888:80"
+      - "4444:443"
+    environment:
+      - "HOSTNAME=https://172.21.1.14"  # Remplacer localhost par l'IP
+      - "MYSQL_HOST=db_misp"           # <== correction ici
+      - "REDIS_FQDN=redis"
+      - "INIT=true"             # Initialze MISP, things includes, attempting to import SQL and the Files DIR
+      - "CRON_USER_ID=1"        # The MISP user ID to run cron jobs as
+      - "DISIPV6=true" # Disable IPV6 in nginx
+      
+  misp-modules:
+    image: coolacid/misp-docker:modules-latest
+    container_name: misp-modules
+    networks:
+      - elastic-stack-docker-part-one_elastic
+    ports:
+      - "6666:6666"   # Port par défaut des modules MISP, exposé ici
+    environment:
+      - "REDIS_BACKEND=redis"
+    depends_on:
+      - redis
+      - db_misp
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    restart: unless-stopped
+    ports:
+      - "63790:6379"  # Redis exposé sur un port personnalisé
+    networks:
+      - elastic-stack-docker-part-one_elastic
+
+  db_misp:
+    image: mysql:latest  # Image MySQL la plus récente
+    container_name: db_misp
+    ports:
+      - "33070:3306"  # MySQL MISP sur un port personnalisé
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.1.12
+    environment:
+      - "MYSQL_USER=misp" # Utilisateur de la base de données
+      - "MYSQL_PASSWORD=example" # Mot de passe de l'utilisateur
+      - "MYSQL_ROOT_PASSWORD=password" #Mot de passe root de la base de données
+      - "MYSQL_DATABASE=misp"
+    volumes:
+      - ./data/mysql_misp:/var/lib/mysql  # Stockage persistant des données MySQL
+    restart: unless-stopped

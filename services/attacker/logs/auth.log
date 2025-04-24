@@ -1,0 +1,4 @@
+2025-03-03T01:41:19.264394+01:00 0861de1f0a0d groupadd[199]: group added to /etc/gshadow: name=_chrony
+2025-03-03T01:41:19.265385+01:00 0861de1f0a0d groupadd[199]: new group: name=_chrony, GID=104
+2025-03-03T01:41:19.281544+01:00 0861de1f0a0d useradd[204]: new user: name=_chrony, UID=102, GID=104, home=/var/lib/chrony, shell=/usr/sbin/nologin, from=/dev/pts/2
+2025-03-03T01:41:19.304990+01:00 0861de1f0a0d chfn[209]: changed user '_chrony' information

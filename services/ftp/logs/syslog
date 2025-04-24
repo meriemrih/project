@@ -1,0 +1,65 @@
+Feb 27 19:24:18 7be7fa213f25 syslog-ng[14]: syslog-ng starting up; version='3.35.1'
+Feb 27 19:24:19 7be7fa213f25 cron[28]: (CRON) INFO (pidfile fd = 3)
+Feb 27 19:24:19 7be7fa213f25 cron[28]: (CRON) INFO (Running @reboot jobs)
+Feb 27 19:24:27 7be7fa213f25 syslog-ng[14]: syslog-ng shutting down; version='3.35.1'
+Feb 27 19:25:22 f5b0d7fd9185 syslog-ng[14]: syslog-ng starting up; version='3.35.1'
+Feb 27 19:25:23 f5b0d7fd9185 cron[28]: (CRON) INFO (pidfile fd = 3)
+Feb 27 19:25:23 f5b0d7fd9185 cron[28]: (CRON) INFO (Running @reboot jobs)
+Feb 27 20:17:01 f5b0d7fd9185 CRON[91]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 27 20:55:53 f5b0d7fd9185 syslog-ng[14]: syslog-ng shutting down; version='3.35.1'
+Feb 27 21:00:47 a687247f1d92 syslog-ng[14]: syslog-ng starting up; version='3.35.1'
+Feb 27 21:00:48 a687247f1d92 cron[28]: (CRON) INFO (pidfile fd = 3)
+Feb 27 21:00:48 a687247f1d92 cron[28]: (CRON) INFO (Running @reboot jobs)
+Feb 27 21:17:01 a687247f1d92 CRON[77]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 27 22:17:01 a687247f1d92 CRON[82]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 27 23:17:01 a687247f1d92 CRON[86]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 28 21:09:40 a687247f1d92 syslog-ng[13]: syslog-ng starting up; version='3.35.1'
+Feb 28 21:09:41 a687247f1d92 cron[27]: (CRON) INFO (pidfile fd = 3)
+Feb 28 21:09:41 a687247f1d92 cron[27]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Feb 28 21:17:01 a687247f1d92 CRON[34]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 28 22:00:37 a687247f1d92 syslog-ng[13]: syslog-ng shutting down; version='3.35.1'
+Feb 28 22:00:39 a687247f1d92 syslog-ng[13]: syslog-ng starting up; version='3.35.1'
+Feb 28 22:00:40 a687247f1d92 cron[27]: (CRON) INFO (pidfile fd = 3)
+Feb 28 22:00:40 a687247f1d92 cron[27]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Feb 28 22:17:01 a687247f1d92 CRON[34]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 28 23:17:01 a687247f1d92 CRON[39]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  1 22:17:01 a687247f1d92 CRON[43]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  1 23:17:01 a687247f1d92 CRON[48]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  2 21:06:35 a687247f1d92 syslog-ng[13]: syslog-ng starting up; version='3.35.1'
+Mar  2 21:06:36 a687247f1d92 cron[27]: (CRON) INFO (pidfile fd = 3)
+Mar  2 21:06:36 a687247f1d92 cron[27]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Mar  2 21:17:01 a687247f1d92 CRON[648]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  2 22:17:01 a687247f1d92 CRON[4183]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  2 23:17:01 a687247f1d92 CRON[7717]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  3 00:17:01 a687247f1d92 CRON[11254]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  3 01:17:01 a687247f1d92 CRON[14791]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  3 02:17:01 a687247f1d92 CRON[18334]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  3 10:37:41 a687247f1d92 syslog-ng[13]: syslog-ng starting up; version='3.35.1'
+Mar  3 10:37:42 a687247f1d92 cron[27]: (CRON) INFO (pidfile fd = 3)
+Mar  3 10:37:42 a687247f1d92 cron[27]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Mar  3 11:17:01 a687247f1d92 CRON[2352]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  3 12:12:56 a687247f1d92 syslog-ng[13]: syslog-ng shutting down; version='3.35.1'
+Mar 25 11:31:27 1ec2cef7c628 syslog-ng[14]: syslog-ng starting up; version='3.35.1'
+Mar 25 11:31:28 1ec2cef7c628 cron[28]: (CRON) INFO (pidfile fd = 3)
+Mar 25 11:31:28 1ec2cef7c628 cron[28]: (CRON) INFO (Running @reboot jobs)
+Mar 25 11:44:06 1ec2cef7c628 syslog-ng[12]: syslog-ng starting up; version='3.35.1'
+Mar 25 11:44:07 1ec2cef7c628 cron[25]: (CRON) INFO (pidfile fd = 3)
+Mar 25 11:44:07 1ec2cef7c628 cron[25]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Mar 25 12:17:01 1ec2cef7c628 CRON[1975]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 25 13:17:01 1ec2cef7c628 CRON[5516]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  7 18:51:40 1ec2cef7c628 syslog-ng[13]: syslog-ng starting up; version='3.35.1'
+Apr  7 18:51:41 1ec2cef7c628 cron[27]: (CRON) INFO (pidfile fd = 3)
+Apr  7 18:51:41 1ec2cef7c628 cron[27]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Apr  7 19:17:01 1ec2cef7c628 CRON[1529]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  7 20:17:01 1ec2cef7c628 CRON[5071]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  7 21:17:01 1ec2cef7c628 CRON[8596]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  7 22:17:01 1ec2cef7c628 CRON[12126]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  7 23:17:01 1ec2cef7c628 CRON[15666]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr  7 23:23:57 1ec2cef7c628 syslog-ng[13]: syslog-ng shutting down; version='3.35.1'
+Apr  7 23:24:15 a2cc7bef7094 syslog-ng[14]: syslog-ng starting up; version='3.35.1'
+Apr  7 23:24:16 a2cc7bef7094 cron[27]: (CRON) INFO (pidfile fd = 3)
+Apr  7 23:24:16 a2cc7bef7094 cron[27]: (CRON) INFO (Running @reboot jobs)
+Apr  8 10:38:28 a2cc7bef7094 syslog-ng[13]: syslog-ng starting up; version='3.35.1'
+Apr  8 10:38:29 a2cc7bef7094 cron[26]: (CRON) INFO (pidfile fd = 3)
+Apr  8 10:38:29 a2cc7bef7094 cron[26]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+Apr  8 11:03:54 a2cc7bef7094 syslog-ng[13]: syslog-ng shutting down; version='3.35.1'

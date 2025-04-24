@@ -1,0 +1,5 @@
+FROM ubuntu/bind9:9.18-22.04_beta 
+
+COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh 
+
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh 

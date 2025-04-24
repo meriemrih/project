@@ -1,0 +1,494 @@
+2025-02-28T23:15:55.049932+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740780955.048:175): apparmor="DENIED" operation="capable" class="cap" profile="rsyslogd" pid=13304 comm=72733A6D61696E20513A526567 capability=0  capname="chown"
+2025-02-28T23:15:55.049902+01:00 0861de1f0a0d rsyslogd: error during config processing: omfile: chown for file '/var/log/syslog' failed: Operation not permitted [v8.2412.0 try https://www.rsyslog.com/e/2207 ]
+2025-02-28T23:15:55.050717+01:00 0861de1f0a0d rsyslogd: error during config processing: omfile: chown for file '/var/log/kern.log' failed: Operation not permitted [v8.2412.0 try https://www.rsyslog.com/e/2207 ]
+2025-02-28T23:27:59.361658+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740781679.360:178): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.198" pid=10875 label="snap.firefox.firefox" peer_pid=14064 peer_label="unconfined"
+2025-02-28T23:27:59.361674+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-02-28T23:28:07.752542+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740781687.751:179): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.198" pid=10875 label="snap.firefox.firefox" peer_pid=14064 peer_label="unconfined"
+2025-02-28T23:28:07.752557+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-02-28T23:28:33.539649+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740781713.536:180): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F646F636B65722D636F6D706F73652E796D6C pid=10875 comm=53747265616D5472616E7320233435 requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-02-28T23:44:32.958686+01:00 0861de1f0a0d kernel: psmouse serio1: TouchPad at isa0060/serio1/input0 lost sync at byte 4
+2025-02-28T23:44:32.959588+01:00 0861de1f0a0d kernel: psmouse serio1: TouchPad at isa0060/serio1/input0 lost sync at byte 1
+2025-02-28T23:44:32.974893+01:00 0861de1f0a0d kernel: psmouse serio1: TouchPad at isa0060/serio1/input0 - driver resynced.
+2025-02-28T23:49:47.869642+01:00 0861de1f0a0d kernel: i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=362444 end=362445) time 154 us, min 763, max 767, scanline start 761, end 768
+2025-02-28T23:58:21.022537+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-02-28T23:58:21.867536+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-01T00:03:13.532536+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740783793.530:186): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.213" pid=10875 label="snap.firefox.firefox" peer_pid=17350 peer_label="unconfined"
+2025-03-01T00:03:13.532551+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:03:13.532553+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740783793.530:187): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.213" pid=10875 label="snap.firefox.firefox" peer_pid=17350 peer_label="unconfined"
+2025-03-01T00:03:13.532554+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:03:13.532555+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740783793.530:188): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.213" pid=10875 label="snap.firefox.firefox" peer_pid=17350 peer_label="unconfined"
+2025-03-01T00:03:13.532564+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:03:13.532566+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740783793.530:189): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.213" pid=10875 label="snap.firefox.firefox" peer_pid=17350 peer_label="unconfined"
+2025-03-01T00:03:13.532567+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:11:29.316538+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784289.314:192): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.215" pid=10875 label="snap.firefox.firefox" peer_pid=17929 peer_label="unconfined"
+2025-03-01T00:11:29.316554+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:11:29.316555+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784289.315:193): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.215" pid=10875 label="snap.firefox.firefox" peer_pid=17929 peer_label="unconfined"
+2025-03-01T00:11:29.316556+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:11:29.316557+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784289.315:194): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.215" pid=10875 label="snap.firefox.firefox" peer_pid=17929 peer_label="unconfined"
+2025-03-01T00:11:29.316559+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:11:29.316559+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784289.315:195): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.215" pid=10875 label="snap.firefox.firefox" peer_pid=17929 peer_label="unconfined"
+2025-03-01T00:11:29.316560+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:12:08.401537+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784328.400:196): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.217" pid=10875 label="snap.firefox.firefox" peer_pid=18092 peer_label="unconfined"
+2025-03-01T00:12:08.401556+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:12:08.401558+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784328.400:197): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.217" pid=10875 label="snap.firefox.firefox" peer_pid=18092 peer_label="unconfined"
+2025-03-01T00:12:08.401559+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:12:08.401559+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784328.400:198): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.217" pid=10875 label="snap.firefox.firefox" peer_pid=18092 peer_label="unconfined"
+2025-03-01T00:12:08.401561+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:12:08.401562+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784328.400:199): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.217" pid=10875 label="snap.firefox.firefox" peer_pid=18092 peer_label="unconfined"
+2025-03-01T00:12:08.401563+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:12:08.401569+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784328.400:200): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.217" pid=10875 label="snap.firefox.firefox" peer_pid=18092 peer_label="unconfined"
+2025-03-01T00:12:08.401571+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:12:18.675422+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740784338.673:202): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F pid=10875 comm=53747265616D547E6E732023313133 requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T00:13:28.612538+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784408.611:204): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.218" pid=10875 label="snap.firefox.firefox" peer_pid=18221 peer_label="unconfined"
+2025-03-01T00:13:28.612553+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:13:28.612555+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784408.611:205): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.218" pid=10875 label="snap.firefox.firefox" peer_pid=18221 peer_label="unconfined"
+2025-03-01T00:13:28.612556+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:13:28.612557+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784408.611:206): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.218" pid=10875 label="snap.firefox.firefox" peer_pid=18221 peer_label="unconfined"
+2025-03-01T00:13:28.612558+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:13:28.612559+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784408.611:207): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.218" pid=10875 label="snap.firefox.firefox" peer_pid=18221 peer_label="unconfined"
+2025-03-01T00:13:28.612870+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:13:28.612883+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784408.612:208): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.218" pid=10875 label="snap.firefox.firefox" peer_pid=18221 peer_label="unconfined"
+2025-03-01T00:13:28.612884+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:13:42.149580+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740784422.147:211): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F pid=10875 comm=53747265616D547E6E732023313132 requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T00:13:43.782726+01:00 0861de1f0a0d kernel: wlo1: authenticate with bc:0f:9a:5d:42:84 (local address=58:00:e3:80:93:1d)
+2025-03-01T00:13:43.782786+01:00 0861de1f0a0d kernel: wlo1: send auth to bc:0f:9a:5d:42:84 (try 1/3)
+2025-03-01T00:13:43.819550+01:00 0861de1f0a0d kernel: wlo1: authenticated
+2025-03-01T00:13:43.819586+01:00 0861de1f0a0d kernel: wlo1: associate with bc:0f:9a:5d:42:84 (try 1/3)
+2025-03-01T00:13:43.846434+01:00 0861de1f0a0d kernel:  snd_pcm_dmaengine coretemp snd_hda_intel kvm_intel snd_intel_dspcfg snd_intel_sdw_acpi snd_hda_codec kvm rtl8723be snd_hda_core snd_hwdep btcoexist crct10dif_pclmul polyval_clmulni snd_pcm polyval_generic rtl8723_common ghash_clmulni_intel uvcvideo rtl_pci snd_seq_midi sha256_ssse3 videobuf2_vmalloc rtlwifi snd_seq_midi_event sha1_ssse3 uvc videobuf2_memops ee1004 i915 aesni_intel radeon binfmt_misc mei_pxp videobuf2_v4l2 snd_rawmidi btusb crypto_simd mac80211 processor_thermal_device_pci_legacy mei_hdcp btrtl cryptd btintel processor_thermal_device snd_seq videodev intel_rapl_msr processor_thermal_wt_hint drm_suballoc_helper rapl btbcm videobuf2_common snd_seq_device processor_thermal_rfim hp_wmi drm_buddy drm_ttm_helper nls_iso8859_1 cfg80211 i2c_i801 btmtk intel_cstate processor_thermal_rapl snd_timer mc platform_profile ttm intel_wmi_thunderbolt i2c_mux wmi_bmof drm_display_helper bluetooth libarc4 intel_rapl_common mei_me snd cec processor_thermal_wt_req soundcore i2c_smbus
+2025-03-01T00:13:43.846463+01:00 0861de1f0a0d kernel: CPU: 1 UID: 0 PID: 14751 Comm: kworker/u16:0 Not tainted 6.11.0-17-generic #17~24.04.2-Ubuntu
+2025-03-01T00:13:43.846467+01:00 0861de1f0a0d kernel: Hardware name: HP HP Notebook/81EE, BIOS F.21 10/27/2016
+2025-03-01T00:13:43.846470+01:00 0861de1f0a0d kernel: Workqueue: events_unbound cfg80211_wiphy_work [cfg80211]
+2025-03-01T00:13:43.846471+01:00 0861de1f0a0d kernel: RIP: 0010:iommu_dma_unmap_page+0xb9/0xe0
+2025-03-01T00:13:43.846472+01:00 0861de1f0a0d kernel: RSP: 0018:ffffb0bc0808f708 EFLAGS: 00010046
+2025-03-01T00:13:43.846473+01:00 0861de1f0a0d kernel: RBP: ffffb0bc0808f738 R08: 0000000000000000 R09: 0000000000000000
+2025-03-01T00:13:43.846475+01:00 0861de1f0a0d kernel: R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000000
+2025-03-01T00:13:43.846476+01:00 0861de1f0a0d kernel: R13: 0000000000000001 R14: 0000000000000400 R15: 0000000000000000
+2025-03-01T00:13:43.846477+01:00 0861de1f0a0d kernel: FS:  0000000000000000(0000) GS:ffff900f5ec80000(0000) knlGS:0000000000000000
+2025-03-01T00:13:43.846478+01:00 0861de1f0a0d kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+2025-03-01T00:13:43.846479+01:00 0861de1f0a0d kernel: CR2: 000075c13f8eb4f4 CR3: 00000001613e8003 CR4: 00000000003706f0
+2025-03-01T00:13:43.846480+01:00 0861de1f0a0d kernel: Call Trace:
+2025-03-01T00:13:43.846529+01:00 0861de1f0a0d kernel:  <TASK>
+2025-03-01T00:13:43.846533+01:00 0861de1f0a0d kernel:  ? show_regs+0x6c/0x80
+2025-03-01T00:13:43.846536+01:00 0861de1f0a0d kernel:  ? __warn+0x88/0x140
+2025-03-01T00:13:43.846539+01:00 0861de1f0a0d kernel:  ? iommu_dma_unmap_page+0xb9/0xe0
+2025-03-01T00:13:43.846542+01:00 0861de1f0a0d kernel:  ? report_bug+0x182/0x1b0
+2025-03-01T00:13:43.846544+01:00 0861de1f0a0d kernel:  ? handle_bug+0x6e/0xb0
+2025-03-01T00:13:43.846547+01:00 0861de1f0a0d kernel:  ? exc_invalid_op+0x18/0x80
+2025-03-01T00:13:43.846556+01:00 0861de1f0a0d kernel:  ? asm_exc_invalid_op+0x1b/0x20
+2025-03-01T00:13:43.846560+01:00 0861de1f0a0d kernel:  ? iommu_dma_unmap_page+0xb9/0xe0
+2025-03-01T00:13:43.846562+01:00 0861de1f0a0d kernel:  ? iommu_dma_unmap_page+0x35/0xe0
+2025-03-01T00:13:43.846565+01:00 0861de1f0a0d kernel:  dma_unmap_page_attrs+0x52/0x210
+2025-03-01T00:13:43.846568+01:00 0861de1f0a0d kernel:  _rtl8723be_return_beacon_queue_skb+0xfa/0x200 [rtl8723be]
+2025-03-01T00:13:43.846570+01:00 0861de1f0a0d kernel:  ? _rtl8723be_fill_h2c_command+0xf7/0x460 [rtl8723be]
+2025-03-01T00:13:43.846578+01:00 0861de1f0a0d kernel:  _rtl8723be_download_rsvd_page+0x220/0x480 [rtl8723be]
+2025-03-01T00:13:43.846581+01:00 0861de1f0a0d kernel:  rtl8723be_set_hw_reg+0x5e6/0xf10 [rtl8723be]
+2025-03-01T00:13:43.846584+01:00 0861de1f0a0d kernel:  rtl_op_bss_info_changed+0x21b/0x870 [rtlwifi]
+2025-03-01T00:13:43.846587+01:00 0861de1f0a0d kernel:  ieee80211_bss_info_change_notify+0x165/0x330 [mac80211]
+2025-03-01T00:13:43.846589+01:00 0861de1f0a0d kernel:  ieee80211_set_associated+0x262/0x350 [mac80211]
+2025-03-01T00:13:43.846591+01:00 0861de1f0a0d kernel:  ieee80211_assoc_success+0x405/0x8d0 [mac80211]
+2025-03-01T00:13:43.846599+01:00 0861de1f0a0d kernel:  ? msg_add_dict_text+0x60/0x100
+2025-03-01T00:13:43.846602+01:00 0861de1f0a0d kernel:  ? skb_dequeue+0x5f/0x80
+2025-03-01T00:13:43.846605+01:00 0861de1f0a0d kernel:  cfg80211_wiphy_work+0x100/0x160 [cfg80211]
+2025-03-01T00:13:43.846607+01:00 0861de1f0a0d kernel:  kthread+0xe1/0x110
+2025-03-01T00:13:43.846610+01:00 0861de1f0a0d kernel:  ? __pfx_kthread+0x10/0x10
+2025-03-01T00:13:43.846612+01:00 0861de1f0a0d kernel:  ? __pfx_kthread+0x10/0x10
+2025-03-01T00:13:43.846615+01:00 0861de1f0a0d kernel:  </TASK>
+2025-03-01T00:13:43.846623+01:00 0861de1f0a0d kernel: wlo1: associated
+2025-03-01T00:13:59.019966+01:00 0861de1f0a0d kernel: rtlwifi: AP off, try to reconnect now
+2025-03-01T00:13:59.020025+01:00 0861de1f0a0d kernel: wlo1: Connection to AP bc:0f:9a:5d:42:84 lost
+2025-03-01T00:14:00.130596+01:00 0861de1f0a0d kernel: wlo1: authenticate with bc:0f:9a:5d:42:84 (local address=58:00:e3:80:93:1d)
+2025-03-01T00:14:00.130650+01:00 0861de1f0a0d kernel: wlo1: send auth to bc:0f:9a:5d:42:84 (try 1/3)
+2025-03-01T00:14:00.133596+01:00 0861de1f0a0d kernel: wlo1: authenticated
+2025-03-01T00:14:00.135615+01:00 0861de1f0a0d kernel: wlo1: associate with bc:0f:9a:5d:42:84 (try 1/3)
+2025-03-01T00:14:02.462530+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740784442.460:212): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F pid=10875 comm="pool-firefox_fi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T00:14:02.647537+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784442.645:213): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.221" pid=10875 label="snap.firefox.firefox" peer_pid=18365 peer_label="unconfined"
+2025-03-01T00:14:02.647556+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:14:02.648705+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784442.646:215): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.221" pid=10875 label="snap.firefox.firefox" peer_pid=18365 peer_label="unconfined"
+2025-03-01T00:14:02.648720+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:14:02.648721+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784442.646:216): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.221" pid=10875 label="snap.firefox.firefox" peer_pid=18365 peer_label="unconfined"
+2025-03-01T00:14:02.648722+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:14:02.648724+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784442.646:217): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.221" pid=10875 label="snap.firefox.firefox" peer_pid=18365 peer_label="unconfined"
+2025-03-01T00:14:02.648725+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:14:02.648726+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784442.646:218): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.221" pid=10875 label="snap.firefox.firefox" peer_pid=18365 peer_label="unconfined"
+2025-03-01T00:14:02.648727+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:14:02.648728+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784442.646:219): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.221" pid=10875 label="snap.firefox.firefox" peer_pid=18365 peer_label="unconfined"
+2025-03-01T00:14:02.648730+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:15:34.772117+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784534.768:224): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.222" pid=10875 label="snap.firefox.firefox" peer_pid=18545 peer_label="unconfined"
+2025-03-01T00:15:34.772136+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:15:34.772138+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784534.768:225): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.222" pid=10875 label="snap.firefox.firefox" peer_pid=18545 peer_label="unconfined"
+2025-03-01T00:15:34.772139+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:15:34.772139+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784534.768:226): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.222" pid=10875 label="snap.firefox.firefox" peer_pid=18545 peer_label="unconfined"
+2025-03-01T00:15:34.772140+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:15:34.772141+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784534.768:227): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.222" pid=10875 label="snap.firefox.firefox" peer_pid=18545 peer_label="unconfined"
+2025-03-01T00:15:34.772142+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:15:34.772144+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784534.768:228): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.222" pid=10875 label="snap.firefox.firefox" peer_pid=18545 peer_label="unconfined"
+2025-03-01T00:15:34.772145+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:15:34.772145+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784534.768:229): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.222" pid=10875 label="snap.firefox.firefox" peer_pid=18545 peer_label="unconfined"
+2025-03-01T00:15:34.772147+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:15:34.772254+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784534.768:230): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.222" pid=10875 label="snap.firefox.firefox" peer_pid=18545 peer_label="unconfined"
+2025-03-01T00:15:34.772258+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:15:34.772259+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784534.769:231): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.222" pid=10875 label="snap.firefox.firefox" peer_pid=18545 peer_label="unconfined"
+2025-03-01T00:15:34.772259+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:15:34.772260+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740784534.770:232): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.222" pid=10875 label="snap.firefox.firefox" peer_pid=18545 peer_label="unconfined"
+2025-03-01T00:15:34.772261+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:16:20.640572+01:00 0861de1f0a0d kernel: kauditd_printk_skb: 1 callbacks suppressed
+2025-03-01T00:16:20.640601+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740784580.638:234): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F pid=10875 comm=53747265616D547E6E732023313230 requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T00:16:38.796592+01:00 0861de1f0a0d kernel: psmouse serio1: TouchPad at isa0060/serio1/input0 lost sync at byte 4
+2025-03-01T00:16:38.797618+01:00 0861de1f0a0d kernel: psmouse serio1: TouchPad at isa0060/serio1/input0 lost sync at byte 1
+2025-03-01T00:16:38.811676+01:00 0861de1f0a0d kernel: psmouse serio1: TouchPad at isa0060/serio1/input0 - driver resynced.
+2025-03-01T00:19:36.043618+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-01T00:26:53.581956+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785213.579:236): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:26:53.581975+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:26:53.581976+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785213.579:237): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:26:53.581977+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:26:53.581978+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785213.579:238): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:26:53.581979+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:26:53.581981+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785213.580:239): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:26:53.581982+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:26:53.581983+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785213.580:240): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:26:53.581984+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:26:53.581986+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785213.580:241): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:26:53.581986+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:26:53.581987+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785213.580:242): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:26:53.581988+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:26:53.581989+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785213.580:243): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:26:53.581989+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:26:53.581991+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785213.580:244): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:26:53.581992+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:27:19.798537+01:00 0861de1f0a0d kernel: workqueue: rtl_watchdog_wq_callback [rtlwifi] hogged CPU for >10000us 4 times, consider switching to WQ_UNBOUND
+2025-03-01T00:27:21.834528+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785241.832:249): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.225" pid=10875 label="snap.firefox.firefox" peer_pid=20101 peer_label="unconfined"
+2025-03-01T00:27:21.834544+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:27:31.150621+01:00 0861de1f0a0d kernel: wlo1: send auth to bc:0f:9a:5d:42:84 (try 1/3)
+2025-03-01T00:27:31.155610+01:00 0861de1f0a0d kernel: wlo1: associate with bc:0f:9a:5d:42:84 (try 1/3)
+2025-03-01T00:27:31.165762+01:00 0861de1f0a0d kernel: ------------[ cut here ]------------
+2025-03-01T00:27:31.165790+01:00 0861de1f0a0d kernel:  snd_pcm_dmaengine coretemp snd_hda_intel kvm_intel snd_intel_dspcfg snd_intel_sdw_acpi snd_hda_codec kvm rtl8723be snd_hda_core snd_hwdep btcoexist crct10dif_pclmul polyval_clmulni snd_pcm polyval_generic rtl8723_common ghash_clmulni_intel uvcvideo rtl_pci snd_seq_midi sha256_ssse3 videobuf2_vmalloc rtlwifi snd_seq_midi_event sha1_ssse3 uvc videobuf2_memops ee1004 i915 aesni_intel radeon binfmt_misc mei_pxp videobuf2_v4l2 snd_rawmidi btusb crypto_simd mac80211 processor_thermal_device_pci_legacy mei_hdcp btrtl cryptd btintel processor_thermal_device snd_seq videodev intel_rapl_msr processor_thermal_wt_hint drm_suballoc_helper rapl btbcm videobuf2_common snd_seq_device processor_thermal_rfim hp_wmi drm_buddy drm_ttm_helper nls_iso8859_1 cfg80211 i2c_i801 btmtk intel_cstate processor_thermal_rapl snd_timer mc platform_profile ttm intel_wmi_thunderbolt i2c_mux wmi_bmof drm_display_helper bluetooth libarc4 intel_rapl_common mei_me snd cec processor_thermal_wt_req soundcore i2c_smbus
+2025-03-01T00:27:31.165796+01:00 0861de1f0a0d kernel: CPU: 3 UID: 0 PID: 14751 Comm: kworker/u16:0 Tainted: G        W          6.11.0-17-generic #17~24.04.2-Ubuntu
+2025-03-01T00:27:31.165798+01:00 0861de1f0a0d kernel: Tainted: [W]=WARN
+2025-03-01T00:27:31.165801+01:00 0861de1f0a0d kernel: Hardware name: HP HP Notebook/81EE, BIOS F.21 10/27/2016
+2025-03-01T00:27:31.165804+01:00 0861de1f0a0d kernel: Code: cc 4c 89 ee 48 89 df e8 95 a3 63 ff 48 85 c0 74 cd 8b 4d d4 49 89 c1 4d 89 f8 4c 89 f2 4c 89 ee 48 89 df e8 69 a7 63 ff eb b4 <0f> 0b 48 83 c4 08 5b 41 5c 41 5d 41 5e 41 5f 5d 31 c0 31 d2 31 c9
+2025-03-01T00:27:40.280592+01:00 0861de1f0a0d kernel: workqueue: rtl_watchdog_wq_callback [rtlwifi] hogged CPU for >10000us 5 times, consider switching to WQ_UNBOUND
+2025-03-01T00:27:50.508723+01:00 0861de1f0a0d kernel: rtlwifi: AP off, try to reconnect now
+2025-03-01T00:27:50.508872+01:00 0861de1f0a0d kernel: wlo1: Connection to AP bc:0f:9a:5d:42:84 lost
+2025-03-01T00:27:51.625547+01:00 0861de1f0a0d kernel: wlo1: authenticate with bc:0f:9a:5d:42:84 (local address=58:00:e3:80:93:1d)
+2025-03-01T00:27:51.625572+01:00 0861de1f0a0d kernel: wlo1: send auth to bc:0f:9a:5d:42:84 (try 1/3)
+2025-03-01T00:27:51.629575+01:00 0861de1f0a0d kernel: wlo1: associate with bc:0f:9a:5d:42:84 (try 1/3)
+2025-03-01T00:27:51.637560+01:00 0861de1f0a0d kernel: wlo1: RX AssocResp from bc:0f:9a:5d:42:84 (capab=0x411 status=0 aid=4)
+2025-03-01T00:27:51.637582+01:00 0861de1f0a0d kernel: wlo1: associated
+2025-03-01T00:29:27.033534+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785367.031:250): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.228" pid=10875 label="snap.firefox.firefox" peer_pid=20470 peer_label="unconfined"
+2025-03-01T00:29:27.033549+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:33:05.196638+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785585.196:263): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.235" pid=10875 label="snap.firefox.firefox" peer_pid=20972 peer_label="unconfined"
+2025-03-01T00:33:05.196655+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:33:05.197538+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785585.196:265): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.235" pid=10875 label="snap.firefox.firefox" peer_pid=20972 peer_label="unconfined"
+2025-03-01T00:33:05.197547+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:33:05.197548+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785585.196:267): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.235" pid=10875 label="snap.firefox.firefox" peer_pid=20972 peer_label="unconfined"
+2025-03-01T00:33:05.197550+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:33:05.197550+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785585.196:269): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.235" pid=10875 label="snap.firefox.firefox" peer_pid=20972 peer_label="unconfined"
+2025-03-01T00:33:05.197551+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:33:12.571626+01:00 0861de1f0a0d kernel: kauditd_printk_skb: 4 callbacks suppressed
+2025-03-01T00:33:12.571662+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740785592.569:275): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F pid=10875 comm=53747265616D547E6E732023313435 requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T00:33:58.801806+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785638.799:277): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.236" pid=10875 label="snap.firefox.firefox" peer_pid=21117 peer_label="unconfined"
+2025-03-01T00:33:58.801821+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:33:58.801823+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785638.799:278): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.236" pid=10875 label="snap.firefox.firefox" peer_pid=21117 peer_label="unconfined"
+2025-03-01T00:33:58.801824+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:33:58.802605+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785638.800:279): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.236" pid=10875 label="snap.firefox.firefox" peer_pid=21117 peer_label="unconfined"
+2025-03-01T00:33:58.802620+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:34:04.924539+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740785644.923:292): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F pid=10875 comm="pool-firefox_fi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T00:34:19.637529+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740785659.635:296): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F pid=10875 comm="pool-firefox_fi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T00:34:19.649539+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740785659.647:297): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.236" pid=10875 label="snap.firefox.firefox" peer_pid=21117 peer_label="unconfined"
+2025-03-01T00:34:19.649553+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T00:34:21.164526+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740785661.162:298): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F646F636B65722D636F6D706F73652E796D6C pid=10875 comm=53747265616D547E6E732023313635 requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T00:34:26.418627+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740785666.417:299): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F646F636B65722D636F6D706F73652E796D6C pid=10875 comm=53747265616D547E6E732023313636 requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T00:35:27.817534+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-01T00:35:29.287582+01:00 0861de1f0a0d kernel: atkbd serio0: Unknown key pressed (translated set 2, code 0xd8 on isa0060/serio0).
+2025-03-01T00:35:29.298662+01:00 0861de1f0a0d kernel: atkbd serio0: Unknown key released (translated set 2, code 0xd8 on isa0060/serio0).
+2025-03-01T00:35:29.549595+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-01T00:35:29.572674+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-01T00:35:29.639625+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-01T00:35:29.679646+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-01T00:35:29.744629+01:00 0861de1f0a0d kernel: wlo1: deauthenticating from bc:0f:9a:5d:42:84 by local choice (Reason: 3=DEAUTH_LEAVING)
+2025-03-01T00:35:29.785747+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-01T00:35:32.230847+01:00 0861de1f0a0d kernel: Filesystems sync: 0.009 seconds
+2025-03-01T00:35:32.233610+01:00 0861de1f0a0d kernel: Freezing user space processes
+2025-03-01T22:49:23.204458+01:00 0861de1f0a0d kernel: done.
+2025-03-01T22:49:23.204505+01:00 0861de1f0a0d kernel: random: crng reseeded on system resumption
+2025-03-01T22:49:23.239302+01:00 0861de1f0a0d kernel: PM: suspend exit
+2025-03-01T22:49:23.323944+01:00 0861de1f0a0d kernel: psmouse serio1: synaptics: queried min coordinates: x [1330..], y [1094..]
+2025-03-01T22:49:23.905445+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740865763.904:303): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/23545/usr/lib/snapd/snap-confine" pid=21378 comm="snap-confine" capability=12  capname="net_admin"
+2025-03-01T22:49:23.905462+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740865763.904:304): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/23545/usr/lib/snapd/snap-confine" pid=21378 comm="snap-confine" capability=38  capname="perfmon"
+2025-03-01T22:49:24.002406+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740865764.001:305): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/sys/vm/max_map_count" pid=21378 comm="firmware-notifi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-03-01T22:49:24.151480+01:00 0861de1f0a0d kernel: Bluetooth: MGMT ver 1.23
+2025-03-01T22:49:24.483449+01:00 0861de1f0a0d kernel: ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+2025-03-01T22:49:24.493416+01:00 0861de1f0a0d kernel: sd 1:0:0:0: [sdb] Starting disk
+2025-03-01T22:49:24.733453+01:00 0861de1f0a0d kernel: RTL8208 Fast Ethernet r8169-0-200:00: attached PHY driver (mii_bus:phy_addr=r8169-0-200:00, irq=MAC)
+2025-03-01T22:49:24.991308+01:00 0861de1f0a0d kernel: ------------[ cut here ]------------
+2025-03-01T22:49:24.991678+01:00 0861de1f0a0d kernel: WARNING: CPU: 2 PID: 818 at drivers/iommu/dma-iommu.c:1199 iommu_dma_unmap_page+0xb9/0xe0
+2025-03-01T22:49:24.991727+01:00 0861de1f0a0d kernel: Modules linked in: ib_core veth xt_nat xt_tcpudp xt_conntrack nft_chain_nat xt_MASQUERADE nf_nat nf_conntrack_netlink nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xfrm_user xfrm_algo xt_addrtype nft_compat nf_tables libcrc32c br_netfilter bridge stp llc ccm rfcomm snd_seq_dummy snd_hrtimer overlay qrtr snd_hda_codec_hdmi cmac algif_hash snd_ctl_led snd_hda_codec_realtek snd_hda_codec_generic algif_skcipher snd_hda_scodec_component af_alg bnep amdgpu snd_sof_pci_intel_skl snd_sof_intel_hda_generic soundwire_intel soundwire_cadence snd_sof_intel_hda_common snd_sof_intel_hda_mlink snd_sof_intel_hda snd_sof_pci snd_sof_xtensa_dsp snd_sof snd_sof_utils soundwire_generic_allocation soundwire_bus snd_soc_avs snd_soc_hda_codec snd_soc_skl snd_soc_hdac_hda snd_hda_ext_core intel_uncore_frequency snd_soc_sst_ipc intel_uncore_frequency_common snd_soc_sst_dsp snd_soc_acpi_intel_match snd_soc_acpi amdxcp intel_tcc_cooling drm_exec snd_soc_core x86_pkg_temp_thermal gpu_sched intel_powerclamp snd_compress ac97_bus
+2025-03-01T22:49:24.991734+01:00 0861de1f0a0d kernel:  snd_pcm_dmaengine coretemp snd_hda_intel kvm_intel snd_intel_dspcfg snd_intel_sdw_acpi snd_hda_codec kvm rtl8723be snd_hda_core snd_hwdep btcoexist crct10dif_pclmul polyval_clmulni snd_pcm polyval_generic rtl8723_common ghash_clmulni_intel uvcvideo rtl_pci snd_seq_midi sha256_ssse3 videobuf2_vmalloc rtlwifi snd_seq_midi_event sha1_ssse3 uvc videobuf2_memops ee1004 i915 aesni_intel radeon binfmt_misc mei_pxp videobuf2_v4l2 snd_rawmidi btusb crypto_simd mac80211 processor_thermal_device_pci_legacy mei_hdcp btrtl cryptd btintel processor_thermal_device snd_seq videodev intel_rapl_msr processor_thermal_wt_hint drm_suballoc_helper rapl btbcm videobuf2_common snd_seq_device processor_thermal_rfim hp_wmi drm_buddy drm_ttm_helper nls_iso8859_1 cfg80211 i2c_i801 btmtk intel_cstate processor_thermal_rapl snd_timer mc platform_profile ttm intel_wmi_thunderbolt i2c_mux wmi_bmof drm_display_helper bluetooth libarc4 intel_rapl_common mei_me snd cec processor_thermal_wt_req soundcore i2c_smbus
+2025-03-01T22:49:24.991739+01:00 0861de1f0a0d kernel:  processor_thermal_power_floor rc_core mei processor_thermal_mbox intel_xhci_usb_role_switch i2c_algo_bit intel_pch_thermal int340x_thermal_zone intel_soc_dts_iosf kxcjk_1013 intel_vbtn industrialio_triggered_buffer intel_pmc_core cm32181 kfifo_buf sparse_keymap intel_vsec industrialio int3400_thermal pmt_telemetry wireless_hotkey acpi_thermal_rel acpi_pad pmt_class input_leds joydev mac_hid serio_raw sch_fq_codel msr parport_pc ppdev lp parport efi_pstore nfnetlink dmi_sysfs ip_tables x_tables autofs4 ahci crc32_pclmul r8169 psmouse xhci_pci video realtek libahci xhci_pci_renesas wmi
+2025-03-01T22:49:24.991743+01:00 0861de1f0a0d kernel: CPU: 2 UID: 0 PID: 818 Comm: NetworkManager Tainted: G        W          6.11.0-17-generic #17~24.04.2-Ubuntu
+2025-03-01T22:49:24.991748+01:00 0861de1f0a0d kernel: Tainted: [W]=WARN
+2025-03-01T22:49:24.991753+01:00 0861de1f0a0d kernel: Hardware name: HP HP Notebook/81EE, BIOS F.21 10/27/2016
+2025-03-01T22:49:24.991757+01:00 0861de1f0a0d kernel: RIP: 0010:iommu_dma_unmap_page+0xb9/0xe0
+2025-03-01T22:49:24.991762+01:00 0861de1f0a0d kernel: Code: cc 4c 89 ee 48 89 df e8 95 a3 63 ff 48 85 c0 74 cd 8b 4d d4 49 89 c1 4d 89 f8 4c 89 f2 4c 89 ee 48 89 df e8 69 a7 63 ff eb b4 <0f> 0b 48 83 c4 08 5b 41 5c 41 5d 41 5e 41 5f 5d 31 c0 31 d2 31 c9
+2025-03-01T22:49:24.991767+01:00 0861de1f0a0d kernel: RSP: 0018:ffffb0bc01a933d8 EFLAGS: 00010046
+2025-03-01T22:49:24.991771+01:00 0861de1f0a0d kernel: RAX: 0000000000000000 RBX: ffff900c021d10c8 RCX: 0000000000000000
+2025-03-01T22:49:24.991775+01:00 0861de1f0a0d kernel: RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000000000
+2025-03-01T22:49:24.991779+01:00 0861de1f0a0d kernel: RBP: ffffb0bc01a93408 R08: 0000000000000000 R09: 0000000000000000
+2025-03-01T22:49:24.991784+01:00 0861de1f0a0d kernel: R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000000
+2025-03-01T22:49:24.991788+01:00 0861de1f0a0d kernel: R13: 0000000000000001 R14: 0000000000000400 R15: 0000000000000000
+2025-03-01T22:49:24.991792+01:00 0861de1f0a0d kernel: FS:  00007a05e9939580(0000) GS:ffff900f5ed00000(0000) knlGS:0000000000000000
+2025-03-01T22:49:24.991796+01:00 0861de1f0a0d kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+2025-03-01T22:49:24.991800+01:00 0861de1f0a0d kernel: CR2: 00007cb179b166e0 CR3: 000000011949e006 CR4: 00000000003706f0
+2025-03-01T22:49:24.991805+01:00 0861de1f0a0d kernel: Call Trace:
+2025-03-01T22:49:24.991809+01:00 0861de1f0a0d kernel:  <TASK>
+2025-03-01T22:49:24.991813+01:00 0861de1f0a0d kernel:  ? show_regs+0x6c/0x80
+2025-03-01T22:49:24.991818+01:00 0861de1f0a0d kernel:  ? __warn+0x88/0x140
+2025-03-01T22:49:24.991822+01:00 0861de1f0a0d kernel:  ? iommu_dma_unmap_page+0xb9/0xe0
+2025-03-01T22:49:24.991826+01:00 0861de1f0a0d kernel:  ? report_bug+0x182/0x1b0
+2025-03-01T22:49:24.991831+01:00 0861de1f0a0d kernel:  ? handle_bug+0x6e/0xb0
+2025-03-01T22:49:24.991835+01:00 0861de1f0a0d kernel:  ? exc_invalid_op+0x18/0x80
+2025-03-01T22:49:24.991839+01:00 0861de1f0a0d kernel:  ? asm_exc_invalid_op+0x1b/0x20
+2025-03-01T22:49:24.991843+01:00 0861de1f0a0d kernel:  ? iommu_dma_unmap_page+0xb9/0xe0
+2025-03-01T22:49:24.991848+01:00 0861de1f0a0d kernel:  ? iommu_dma_unmap_page+0x35/0xe0
+2025-03-01T22:49:24.991852+01:00 0861de1f0a0d kernel:  dma_unmap_page_attrs+0x52/0x210
+2025-03-01T22:49:24.991856+01:00 0861de1f0a0d kernel:  rtl_pci_reset_trx_ring+0x16a/0x540 [rtl_pci]
+2025-03-01T22:49:24.991860+01:00 0861de1f0a0d kernel:  rtl_pci_start+0x21/0x150 [rtl_pci]
+2025-03-01T22:49:24.991864+01:00 0861de1f0a0d kernel:  rtl_op_start+0x60/0xa0 [rtlwifi]
+2025-03-01T22:49:24.991893+01:00 0861de1f0a0d kernel:  drv_start+0x52/0x120 [mac80211]
+2025-03-01T22:49:24.991899+01:00 0861de1f0a0d kernel:  ieee80211_do_open+0x2aa/0x7d0 [mac80211]
+2025-03-01T22:49:24.991903+01:00 0861de1f0a0d kernel:  ieee80211_open+0x69/0x90 [mac80211]
+2025-03-01T22:49:24.991907+01:00 0861de1f0a0d kernel:  __dev_open+0x10b/0x1d0
+2025-03-01T22:49:24.991911+01:00 0861de1f0a0d kernel:  __dev_change_flags+0x1bb/0x240
+2025-03-01T22:49:24.991915+01:00 0861de1f0a0d kernel:  ? pick_eevdf+0x7a/0x1b0
+2025-03-01T22:49:24.991919+01:00 0861de1f0a0d kernel:  dev_change_flags+0x27/0x80
+2025-03-01T22:49:24.991932+01:00 0861de1f0a0d kernel:  do_setlink+0xab7/0xe50
+2025-03-01T22:49:24.991936+01:00 0861de1f0a0d kernel:  ? ima_get_action+0x2f/0x50
+2025-03-01T22:49:24.991940+01:00 0861de1f0a0d kernel:  ? process_measurement+0x14d/0xd30
+2025-03-01T22:49:24.991944+01:00 0861de1f0a0d kernel:  ? __nla_validate_parse+0x49/0x1d0
+2025-03-01T22:49:24.991948+01:00 0861de1f0a0d kernel:  __rtnl_newlink+0x69b/0x720
+2025-03-01T22:49:24.991952+01:00 0861de1f0a0d kernel:  rtnl_newlink+0x77/0xa0
+2025-03-01T22:49:24.991964+01:00 0861de1f0a0d kernel:  rtnetlink_rcv_msg+0x16d/0x460
+2025-03-01T22:49:24.991969+01:00 0861de1f0a0d kernel:  ? down_write+0x12/0x80
+2025-03-01T22:49:24.991973+01:00 0861de1f0a0d kernel:  ? process_measurement+0x931/0xd30
+2025-03-01T22:49:24.991977+01:00 0861de1f0a0d kernel:  ? __pfx_rtnetlink_rcv_msg+0x10/0x10
+2025-03-01T22:49:24.991981+01:00 0861de1f0a0d kernel:  netlink_rcv_skb+0x5a/0x110
+2025-03-01T22:49:24.991985+01:00 0861de1f0a0d kernel:  rtnetlink_rcv+0x15/0x30
+2025-03-01T22:49:24.991989+01:00 0861de1f0a0d kernel:  netlink_unicast+0x245/0x390
+2025-03-01T22:49:24.992001+01:00 0861de1f0a0d kernel:  netlink_sendmsg+0x213/0x470
+2025-03-01T22:49:24.992005+01:00 0861de1f0a0d kernel:  ____sys_sendmsg+0x3a8/0x410
+2025-03-01T22:49:24.992010+01:00 0861de1f0a0d kernel:  ___sys_sendmsg+0x9a/0xf0
+2025-03-01T22:49:24.992014+01:00 0861de1f0a0d kernel:  __sys_sendmsg+0x89/0xf0
+2025-03-01T22:49:24.992017+01:00 0861de1f0a0d kernel:  __x64_sys_sendmsg+0x1d/0x30
+2025-03-01T22:49:24.992021+01:00 0861de1f0a0d kernel:  x64_sys_call+0x912/0x25f0
+2025-03-01T22:49:24.992033+01:00 0861de1f0a0d kernel:  do_syscall_64+0x7e/0x170
+2025-03-01T22:49:24.992038+01:00 0861de1f0a0d kernel:  ? __fput+0x1b1/0x2e0
+2025-03-01T22:49:24.992042+01:00 0861de1f0a0d kernel:  ? kmem_cache_free+0x469/0x490
+2025-03-01T22:49:24.992046+01:00 0861de1f0a0d kernel:  ? __fput+0x1b1/0x2e0
+2025-03-01T22:49:24.992050+01:00 0861de1f0a0d kernel:  ? __fput_sync+0x1c/0x30
+2025-03-01T22:49:24.992054+01:00 0861de1f0a0d kernel:  ? syscall_exit_to_user_mode+0x4e/0x250
+2025-03-01T22:49:24.992065+01:00 0861de1f0a0d kernel:  ? do_syscall_64+0x8a/0x170
+2025-03-01T22:49:24.992070+01:00 0861de1f0a0d kernel:  ? do_syscall_64+0x8a/0x170
+2025-03-01T22:49:24.992074+01:00 0861de1f0a0d kernel:  ? irqentry_exit_to_user_mode+0x43/0x250
+2025-03-01T22:49:24.992078+01:00 0861de1f0a0d kernel:  ? irqentry_exit+0x43/0x50
+2025-03-01T22:49:24.992082+01:00 0861de1f0a0d kernel:  ? sysvec_apic_timer_interrupt+0x57/0xc0
+2025-03-01T22:49:24.992086+01:00 0861de1f0a0d kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+2025-03-01T22:49:24.992090+01:00 0861de1f0a0d kernel: RIP: 0033:0x7a05ea52c03b
+2025-03-01T22:49:24.992103+01:00 0861de1f0a0d kernel: Code: 48 89 e5 48 83 ec 20 89 55 ec 48 89 75 f0 89 7d f8 e8 29 c5 f6 ff 8b 55 ec 48 8b 75 f0 41 89 c0 8b 7d f8 b8 2e 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 2d 44 89 c7 48 89 45 f8 e8 81 c5 f6 ff 48 8b
+2025-03-01T22:49:24.992108+01:00 0861de1f0a0d kernel: RSP: 002b:00007fffc6d68840 EFLAGS: 00000293 ORIG_RAX: 000000000000002e
+2025-03-01T22:49:24.992112+01:00 0861de1f0a0d kernel: RAX: ffffffffffffffda RBX: 000058ee419246d0 RCX: 00007a05ea52c03b
+2025-03-01T22:49:24.992116+01:00 0861de1f0a0d kernel: RDX: 0000000000000000 RSI: 00007fffc6d68880 RDI: 000000000000000d
+2025-03-01T22:49:24.992120+01:00 0861de1f0a0d kernel: RBP: 00007fffc6d68860 R08: 0000000000000000 R09: 0000000000000000
+2025-03-01T22:49:24.992124+01:00 0861de1f0a0d kernel: R10: 0000000000000000 R11: 0000000000000293 R12: 00000000000006c9
+2025-03-01T22:49:24.992136+01:00 0861de1f0a0d kernel: R13: 000058ee419246d0 R14: 0000000000000001 R15: 0000000000000000
+2025-03-01T22:49:24.992140+01:00 0861de1f0a0d kernel:  </TASK>
+2025-03-01T22:49:24.992144+01:00 0861de1f0a0d kernel: ---[ end trace 0000000000000000 ]---
+2025-03-01T22:49:26.621400+01:00 0861de1f0a0d kernel: wlo1: send auth to bc:0f:9a:5d:42:84 (try 1/3)
+2025-03-01T22:49:26.631424+01:00 0861de1f0a0d kernel: wlo1: RX AssocResp from bc:0f:9a:5d:42:84 (capab=0x411 status=0 aid=6)
+2025-03-01T22:49:26.631466+01:00 0861de1f0a0d kernel: wlo1: associated
+2025-03-01T23:02:44.668409+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866564.666:307): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.255" pid=10875 label="snap.firefox.firefox" peer_pid=23603 peer_label="unconfined"
+2025-03-01T23:02:44.668425+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:02:44.668427+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866564.666:308): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.255" pid=10875 label="snap.firefox.firefox" peer_pid=23603 peer_label="unconfined"
+2025-03-01T23:02:44.668428+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:02:44.668429+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866564.666:309): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.255" pid=10875 label="snap.firefox.firefox" peer_pid=23603 peer_label="unconfined"
+2025-03-01T23:02:44.668430+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:02:44.669755+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866564.668:312): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.255" pid=10875 label="snap.firefox.firefox" peer_pid=23603 peer_label="unconfined"
+2025-03-01T23:02:44.669770+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:02:44.670886+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866564.669:314): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.255" pid=10875 label="snap.firefox.firefox" peer_pid=23603 peer_label="unconfined"
+2025-03-01T23:02:44.670900+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:04:17.564474+01:00 0861de1f0a0d kernel: usb 1-1: new high-speed USB device number 4 using xhci_hcd
+2025-03-01T23:04:17.691524+01:00 0861de1f0a0d kernel: usb 1-1: New USB device found, idVendor=04e8, idProduct=6860, bcdDevice= 4.19
+2025-03-01T23:04:17.691604+01:00 0861de1f0a0d kernel: usb 1-1: Product: SAMSUNG_Android
+2025-03-01T23:04:17.691612+01:00 0861de1f0a0d kernel: usb 1-1: SerialNumber: RF8T10PDRXV
+2025-03-01T23:04:17.744377+01:00 0861de1f0a0d kernel: cdc_acm 1-1:1.1: ttyACM0: USB ACM device
+2025-03-01T23:04:17.744393+01:00 0861de1f0a0d kernel: usbcore: registered new interface driver cdc_acm
+2025-03-01T23:04:17.744395+01:00 0861de1f0a0d kernel: cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+2025-03-01T23:04:54.216437+01:00 0861de1f0a0d kernel: usb 1-1: New USB device found, idVendor=04e8, idProduct=6863, bcdDevice= 4.19
+2025-03-01T23:04:54.216453+01:00 0861de1f0a0d kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+2025-03-01T23:04:54.216456+01:00 0861de1f0a0d kernel: usb 1-1: Product: SAMSUNG_Android
+2025-03-01T23:04:54.216457+01:00 0861de1f0a0d kernel: usb 1-1: Manufacturer: SAMSUNG
+2025-03-01T23:04:54.216458+01:00 0861de1f0a0d kernel: usb 1-1: SerialNumber: RF8T10PDRXV
+2025-03-01T23:04:54.274379+01:00 0861de1f0a0d kernel: rndis_host 1-1:1.0 eth0: register 'rndis_host' at usb-0000:00:14.0-1, RNDIS device, 2e:82:16:7c:e2:91
+2025-03-01T23:04:54.274401+01:00 0861de1f0a0d kernel: usbcore: registered new interface driver rndis_host
+2025-03-01T23:04:54.293588+01:00 0861de1f0a0d kernel: rndis_host 1-1:1.0 enx2e82167ce291: renamed from eth0
+2025-03-01T23:05:01.716510+01:00 0861de1f0a0d kernel: cdc_acm 1-1:1.1: ttyACM0: USB ACM device
+2025-03-01T23:06:14.276460+01:00 0861de1f0a0d kernel: show_signal_msg: 9 callbacks suppressed
+2025-03-01T23:06:14.276511+01:00 0861de1f0a0d kernel: nautilus[17902]: segfault at 5 ip 0000714d4ee2cd61 sp 00007fffcf7fd368 error 4 in libgobject-2.0.so.0.8000.0[3cd61,714d4edff000+37000] likely on CPU 0 (core 0, socket 0)
+2025-03-01T23:06:35.223397+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866795.221:327): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.273" pid=10875 label="snap.firefox.firefox" peer_pid=24802 peer_label="unconfined"
+2025-03-01T23:06:35.223413+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:06:35.223415+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866795.221:328): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.273" pid=10875 label="snap.firefox.firefox" peer_pid=24802 peer_label="unconfined"
+2025-03-01T23:06:35.223417+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:06:35.223418+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866795.221:329): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.273" pid=10875 label="snap.firefox.firefox" peer_pid=24802 peer_label="unconfined"
+2025-03-01T23:06:35.223420+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:06:35.223422+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866795.221:330): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.273" pid=10875 label="snap.firefox.firefox" peer_pid=24802 peer_label="unconfined"
+2025-03-01T23:06:35.223423+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:06:35.223424+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866795.221:331): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.273" pid=10875 label="snap.firefox.firefox" peer_pid=24802 peer_label="unconfined"
+2025-03-01T23:06:35.223426+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:06:35.223427+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866795.221:332): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.273" pid=10875 label="snap.firefox.firefox" peer_pid=24802 peer_label="unconfined"
+2025-03-01T23:06:35.223428+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:06:35.223429+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866795.221:333): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.273" pid=10875 label="snap.firefox.firefox" peer_pid=24802 peer_label="unconfined"
+2025-03-01T23:06:35.223431+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:06:35.223432+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866795.221:334): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.273" pid=10875 label="snap.firefox.firefox" peer_pid=24802 peer_label="unconfined"
+2025-03-01T23:06:35.223434+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:07:11.150898+01:00 0861de1f0a0d kernel: kauditd_printk_skb: 6 callbacks suppressed
+2025-03-01T23:07:11.150916+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866831.149:341): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.276" pid=10875 label="snap.firefox.firefox" peer_pid=24848 peer_label="unconfined"
+2025-03-01T23:07:11.150919+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:07:11.150920+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740866831.149:342): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.276" pid=10875 label="snap.firefox.firefox" peer_pid=24848 peer_label="unconfined"
+2025-03-01T23:07:11.150922+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:19:14.168289+01:00 0861de1f0a0d kernel: perf: interrupt took too long (3200 > 3175), lowering kernel.perf_event_max_sample_rate to 62000
+2025-03-01T23:28:33.144374+01:00 0861de1f0a0d kernel: br-122361653b47: port 9(veth9b6d0e9) entered disabled state
+2025-03-01T23:28:33.144388+01:00 0861de1f0a0d kernel: veth020cc55: renamed from eth0
+2025-03-01T23:28:33.156374+01:00 0861de1f0a0d kernel: br-122361653b47: port 9(veth9b6d0e9) entered disabled state
+2025-03-01T23:28:33.157467+01:00 0861de1f0a0d kernel: veth9b6d0e9 (unregistering): left allmulticast mode
+2025-03-01T23:28:33.157484+01:00 0861de1f0a0d kernel: veth9b6d0e9 (unregistering): left promiscuous mode
+2025-03-01T23:28:33.157485+01:00 0861de1f0a0d kernel: br-122361653b47: port 9(veth9b6d0e9) entered disabled state
+2025-03-01T23:28:33.391425+01:00 0861de1f0a0d kernel: br-122361653b47: port 9(veth0edf0d8) entered blocking state
+2025-03-01T23:28:33.391512+01:00 0861de1f0a0d kernel: br-122361653b47: port 9(veth0edf0d8) entered disabled state
+2025-03-01T23:28:33.391520+01:00 0861de1f0a0d kernel: veth0edf0d8: entered allmulticast mode
+2025-03-01T23:28:33.391523+01:00 0861de1f0a0d kernel: veth0edf0d8: entered promiscuous mode
+2025-03-01T23:28:33.600379+01:00 0861de1f0a0d kernel: eth0: renamed from vethf540bbc
+2025-03-01T23:33:58.242393+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868438.241:357): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:33:58.242408+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:33:58.242409+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868438.241:358): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:33:58.242410+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:33:58.244379+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868438.243:360): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:33:58.244394+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:33:58.244396+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868438.243:361): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:33:58.244397+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:33:58.245512+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868438.245:364): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:33:58.245529+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:33:58.246381+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868438.245:365): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:33:58.246394+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:34:46.641384+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868486.639:377): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:34:46.641400+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:35:25.610387+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868525.608:379): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:35:25.610405+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:36:04.348407+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868564.346:382): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:36:04.348423+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:36:12.604379+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740868572.603:383): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F646174612F6D6F6E676F64622F pid=10875 comm=53747265616D547E6E732023323734 requested_mask="r" denied_mask="r" fsuid=1000 ouid=999
+2025-03-01T23:36:25.827392+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868585.825:384): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:36:25.827408+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:36:45.807387+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868605.805:386): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:36:45.807402+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:37:01.810390+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868621.808:388): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.300" pid=10875 label="snap.firefox.firefox" peer_pid=27532 peer_label="unconfined"
+2025-03-01T23:37:01.810407+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:43:00.106381+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868980.105:397): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.303" pid=10875 label="snap.firefox.firefox" peer_pid=28616 peer_label="unconfined"
+2025-03-01T23:43:00.106396+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:43:00.106398+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868980.105:398): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.303" pid=10875 label="snap.firefox.firefox" peer_pid=28616 peer_label="unconfined"
+2025-03-01T23:43:00.106400+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-01T23:43:00.106401+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740868980.105:399): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.303" pid=10875 label="snap.firefox.firefox" peer_pid=28616 peer_label="unconfined"
+2025-03-01T23:43:00.106403+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:00:03.084381+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740870003.083:424): apparmor="DENIED" operation="capable" class="cap" profile="/usr/sbin/cupsd" pid=29813 comm="cupsd" capability=12  capname="net_admin"
+2025-03-02T00:37:12.907530+01:00 0861de1f0a0d kernel: perf: interrupt took too long (4029 > 4000), lowering kernel.perf_event_max_sample_rate to 49000
+2025-03-02T00:49:59.690391+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-02T00:50:57.009779+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.006:425): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009795+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:50:57.009797+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.006:426): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009798+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:50:57.009799+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.006:427): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009800+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:50:57.009801+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.006:428): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009802+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:50:57.009803+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.006:429): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009803+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:50:57.009804+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.006:430): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009805+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:50:57.009806+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.006:431): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009806+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:50:57.009807+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.006:432): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009808+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:50:57.009809+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.006:433): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009810+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:50:57.009811+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873057.007:434): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.331" pid=10875 label="snap.firefox.firefox" peer_pid=32779 peer_label="unconfined"
+2025-03-02T00:50:57.009812+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:51:32.653381+01:00 0861de1f0a0d kernel: audit: type=1400 audit(1740873092.652:459): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name=2F686F6D652F696B72616D2D73626E2F54C3A96CC3A96368617267656D656E74732F73657276696365732F646174612F6D6F6E676F64622F pid=10875 comm="pool-firefox_fi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=999
+2025-03-02T00:51:32.854382+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873092.851:460): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.332" pid=10875 label="snap.firefox.firefox" peer_pid=32861 peer_label="unconfined"
+2025-03-02T00:51:32.854400+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:51:32.859509+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873092.856:461): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.332" pid=10875 label="snap.firefox.firefox" peer_pid=32861 peer_label="unconfined"
+2025-03-02T00:51:32.859534+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:51:32.859535+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873092.856:462): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.332" pid=10875 label="snap.firefox.firefox" peer_pid=32861 peer_label="unconfined"
+2025-03-02T00:51:32.859537+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:51:32.859539+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873092.856:463): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.332" pid=10875 label="snap.firefox.firefox" peer_pid=32861 peer_label="unconfined"
+2025-03-02T00:51:32.859540+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:51:32.859542+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873092.856:464): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.332" pid=10875 label="snap.firefox.firefox" peer_pid=32861 peer_label="unconfined"
+2025-03-02T00:51:32.859543+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:51:32.859544+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873092.856:465): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.332" pid=10875 label="snap.firefox.firefox" peer_pid=32861 peer_label="unconfined"
+2025-03-02T00:51:32.859546+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:51:32.859638+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873092.856:466): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.332" pid=10875 label="snap.firefox.firefox" peer_pid=32861 peer_label="unconfined"
+2025-03-02T00:51:32.859643+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:51:32.859644+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873092.856:467): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.332" pid=10875 label="snap.firefox.firefox" peer_pid=32861 peer_label="unconfined"
+2025-03-02T00:51:32.859645+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:51:32.859645+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740873092.856:468): pid=767 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.332" pid=10875 label="snap.firefox.firefox" peer_pid=32861 peer_label="unconfined"
+2025-03-02T00:51:32.859646+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-02T00:53:51.053535+01:00 0861de1f0a0d kernel: atkbd serio0: Unknown key pressed (translated set 2, code 0xd8 on isa0060/serio0).
+2025-03-02T00:53:51.053591+01:00 0861de1f0a0d kernel: atkbd serio0: Use 'setkeycodes e058 <keycode>' to make it known.
+2025-03-02T00:53:51.064532+01:00 0861de1f0a0d kernel: atkbd serio0: Use 'setkeycodes e058 <keycode>' to make it known.
+2025-03-02T00:53:51.230394+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-02T00:53:51.234406+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-02T00:53:51.255478+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-02T00:53:51.282388+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-02T00:53:51.403944+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-02T00:53:51.839410+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T00:10:45.054497+01:00 0861de1f0a0d rsyslogd: [origin software="rsyslogd" swVersion="8.2412.0" x-pid="17" x-info="https://www.rsyslog.com"] start
+2025-03-03T00:31:49.506940+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T00:37:35.352044+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T00:48:55.448962+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T00:50:45.968961+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T00:54:19.060934+01:00 0861de1f0a0d kernel: atkbd serio0: Use 'setkeycodes e02b <keycode>' to make it known.
+2025-03-03T00:54:19.338042+01:00 0861de1f0a0d kernel: atkbd serio0: Unknown key pressed (translated set 2, code 0xab on isa0060/serio0).
+2025-03-03T00:54:19.347973+01:00 0861de1f0a0d kernel: atkbd serio0: Use 'setkeycodes e02b <keycode>' to make it known.
+2025-03-03T00:54:19.477985+01:00 0861de1f0a0d kernel: atkbd serio0: Use 'setkeycodes e02b <keycode>' to make it known.
+2025-03-03T00:54:19.542980+01:00 0861de1f0a0d kernel: atkbd serio0: Unknown key released (translated set 2, code 0xab on isa0060/serio0).
+2025-03-03T00:59:39.323954+01:00 0861de1f0a0d kernel: workqueue: delayed_fput hogged CPU for >10000us 67 times, consider switching to WQ_UNBOUND
+2025-03-03T01:01:32.065914+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T01:08:59.956948+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T01:11:57.870895+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T01:18:15.649175+01:00 0861de1f0a0d root: Ceci est un test de log depuis user_machine
+2025-03-03T01:18:15.650180+01:00 0861de1f0a0d rsyslogd: error during config processing: omfile: chown for file '/var/log/user.log' failed: Operation not permitted [v8.2412.0 try https://www.rsyslog.com/e/2207 ]
+2025-03-03T01:18:28.320380+01:00 0861de1f0a0d root: Ceci est un test de log depuis user_machine
+2025-03-03T01:19:03.411119+01:00 0861de1f0a0d root: Ceci est un test de log depuis attacker_machine
+2025-03-03T01:19:43.767919+01:00 0861de1f0a0d root: Ceci est un test de log depuis attacker_machine
+2025-03-03T01:23:50.310160+01:00 0861de1f0a0d root: Ceci est un test de log depuis attacker_machine
+2025-03-03T01:26:29.960892+01:00 0861de1f0a0d kernel: audit: type=1107 audit(1740961589.959:181): pid=771 uid=101 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/hostname1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.228" pid=4731 label="snap.firefox.firefox" peer_pid=36343 peer_label="unconfined"
+2025-03-03T01:26:29.960915+01:00 0861de1f0a0d kernel:  exe="/usr/bin/dbus-daemon" sauid=101 hostname=? addr=? terminal=?'
+2025-03-03T01:39:22.991452+01:00 0861de1f0a0d kernel: perf: interrupt took too long (4050 > 4026), lowering kernel.perf_event_max_sample_rate to 49000
+2025-03-03T01:41:19.244391+01:00 0861de1f0a0d adduser[194]: Selecting UID from range 100 to 999 ...
+2025-03-03T01:41:19.246731+01:00 0861de1f0a0d adduser[194]: Selecting GID from range 100 to 999 ...
+2025-03-03T01:41:19.249113+01:00 0861de1f0a0d adduser[194]: Adding system user `_chrony' (UID 102) ...
+2025-03-03T01:41:19.251381+01:00 0861de1f0a0d adduser[194]: Adding new group `_chrony' (GID 104) ...
+2025-03-03T01:41:19.261778+01:00 0861de1f0a0d rsyslogd: error during config processing: omfile: chown for file '/var/log/auth.log' failed: Operation not permitted [v8.2412.0 try https://www.rsyslog.com/e/2207 ]
+2025-03-03T01:41:19.269038+01:00 0861de1f0a0d adduser[194]: Adding new user `_chrony' (UID 102) with group `_chrony' ...
+2025-03-03T01:41:19.307868+01:00 0861de1f0a0d adduser[194]: Not creating home directory `/var/lib/chrony'.
+2025-03-03T01:43:06.197453+01:00 0861de1f0a0d chronyd[464]: chronyd version 4.6.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+2025-03-03T01:43:06.198781+01:00 0861de1f0a0d chronyd[464]: Loaded 0 symmetric keys
+2025-03-03T01:43:06.199198+01:00 0861de1f0a0d chronyd[464]: Using leap second list /usr/share/zoneinfo/leap-seconds.list
+2025-03-03T01:43:06.199229+01:00 0861de1f0a0d chronyd[464]: Initial frequency -48.726 ppm
+2025-03-03T01:43:06.200354+01:00 0861de1f0a0d chronyd[464]: Loaded seccomp filter (level 1)
+2025-03-03T01:43:10.464036+01:00 0861de1f0a0d chronyd[464]: Selected source 192.168.203.70 (ntp_server)
+2025-03-03T01:43:10.464563+01:00 0861de1f0a0d chronyd[464]: System clock TAI offset set to 37 seconds
+2025-03-03T01:51:30.962976+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T01:51:57.403951+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T02:15:13.265964+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T02:16:36.009031+01:00 0861de1f0a0d kernel: Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+2025-03-03T02:30:17.223881+01:00 0861de1f0a0d kernel: eth0: renamed from vethd0f8188
+2025-03-03T02:30:17.225884+01:00 0861de1f0a0d kernel: br-122361653b47: port 8(veth08a4ff0) entered blocking state
+2025-03-03T02:30:17.225900+01:00 0861de1f0a0d kernel: br-122361653b47: port 8(veth08a4ff0) entered forwarding state

@@ -1,0 +1,14 @@
+web (fonctionnement:done)(log:done)(attack:)
+db mysql (fonctionnement:done)(log:done)(attack:)
+ftp (fonctionnement:done)(log:done)(attack:)
+ips (fonctionnement:done)(log:done)(attack:)
+attacker (fonctionnement:done)(log:done)(attack:)
+user (fonctionnement:done)(log:done)(attack:)
+
+dns (fonctionnement:done)(log:)(attack:)--> meriem
+ntp (fonctionnement:)(log:)(attack:)-->meriem
+
+mongodb (fonctionnement:)(log:)(attack:)
+syslog(fonctionnement:)(log:)(attack:)
+php (fonctionnement:done)(log:)(attack:)
+

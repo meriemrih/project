@@ -1,0 +1,5 @@
+2025-03-03T02:09:00.400455+01:00 5f27a07c4a2b groupadd[1254]: group added to /etc/group: name=_chrony, GID=105
+2025-03-03T02:09:00.403094+01:00 5f27a07c4a2b groupadd[1254]: group added to /etc/gshadow: name=_chrony
+2025-03-03T02:09:00.404202+01:00 5f27a07c4a2b groupadd[1254]: new group: name=_chrony, GID=105
+2025-03-03T02:09:00.414730+01:00 5f27a07c4a2b useradd[1261]: new user: name=_chrony, UID=102, GID=105, home=/var/lib/chrony, shell=/usr/sbin/nologin, from=/dev/pts/3
+2025-03-03T02:09:00.465366+01:00 5f27a07c4a2b chfn[1268]: changed user '_chrony' information

@@ -1,0 +1,47 @@
+options {
+    directory "/var/cache/bind";  # Répertoire où BIND stocke ses fichiers de cache
+
+    recursion yes;  # Active la récursion pour permettre la résolution des noms non locaux
+    allow-recursion { 172.21.0.0/16; };  # Restreint la récursion aux clients du sous-réseau
+
+    listen-on { any; };  # Écoute sur toutes les interfaces réseau IPv4
+    listen-on-v6 { none; };  # Désactive l'écoute sur les interfaces IPv6
+
+    allow-query { any; };  # Autorise toutes les machines à interroger le serveur DNS
+    allow-transfer { any; };
+    querylog yes; 
+
+    forwarders {
+        8.8.8.8;  # Serveur DNS de Google
+        1.1.1.1;  # Serveur DNS de Cloudflare
+    };
+
+#    dnssec-validation auto;  # Active la validation DNSSEC automatique
+};
+
+logging {  
+
+    channel default_log { 
+
+        file "/var/log/bind/bind.log" versions 3 size 5m; // 3 fichier> 
+
+        severity info; 
+
+        print-time yes; 
+
+        print-severity yes; 
+
+        print-category yes; 
+
+}; 
+ 
+channel query_log { 
+    file "/var/log/bind/queries.log" versions 3 size 5m; 
+    severity info; 
+    print-time yes; 
+}; 
+
+category default { default_log; }; 
+category queries { query_log; }; 
+
+}; 

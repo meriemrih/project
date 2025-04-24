@@ -1,0 +1,10 @@
+/usr/sbin/mysqld, Version: 9.2.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2025-04-08T11:08:14.544655Z	   11 Query	SET GLOBAL general_log_file = '/var/log/mysql/general.log'
+2025-04-08T11:08:14.545339Z	   11 Query	SET GLOBAL slow_query_log = 'ON'
+2025-04-08T11:08:14.547560Z	   11 Query	SET GLOBAL slow_query_log_file = '/var/log/mysql/slow.log'
+2025-04-08T11:08:55.291401Z	   11 Query	SET GLOBAL general_log_file = '/var/log/mysql/general.log'
+2025-04-08T11:10:27.037389Z	   11 Query	SHOW VARIABLES LIKE 'general_log%'
+2025-04-08T11:10:27.051879Z	   11 Query	SHOW VARIABLES LIKE 'slow_query_log%'
+2025-04-08T11:14:28.371942Z	   11 Quit	

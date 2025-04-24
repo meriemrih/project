@@ -1,0 +1,187 @@
+# Définition du réseau utilisé par les services
+networks:
+  elastic-stack-docker-part-one_elastic:
+    external: true
+    
+services:
+  # Serveur DNS (Bind9)
+  dns:
+    build: ./bind  # Construction de l'image à partir du Dockerfile situé dans ./bind
+    container_name: dns_server
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.1.6  # Attribution d'une IP statique
+    volumes:
+      - ./bind/config/named.conf.options:/etc/bind/named.conf.options # Configuration DNS (lecture seule)
+      - ./bind/config/named.conf.local:/etc/bind/named.conf.local  # Configuration locale DNS
+      - ./bind/zones/db.sonalgaz.com:/etc/bind/zones/db.sonalgaz.com  # Fichier de zone DNS
+      - ./syslog/logs/dns_server:/var/log/bind  # Stockage des logs DNS
+    restart: unless-stopped # Redémarrage automatique sauf en cas d'arrêt manuel
+    environment:
+      TZ: "Africa/Algiers"
+
+  # Serveur Web (Nginx)
+  web:
+    image: nginx:latest  # Image Nginx la plus récente
+    container_name: web_server
+    ports:
+      - "8080:80"  # Exposition du port 80 du conteneur sur le port 8080 de l'hôte
+    cap_add:
+      - NET_ADMIN  # ✅ Ajout des bonnes permissions réseau
+    labels:
+      - service=nginx
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.0.7
+    volumes:
+      - ./nginx/html:/var/www/html # Dossier contenant les fichiers web
+      - ./nginx/config/default.conf:/etc/nginx/conf.d/default.conf # Fichier de configuration de Nginx
+      - ./syslog/logs/web_server:/var/log/nginx # Logs du serveur web
+    restart: unless-stopped # Redémarrage automatique sauf en cas d'arrêt manuel
+    depends_on:
+      - php  # Attente du démarrage du conteneur PHP
+    environment:
+      TZ: "Africa/Algiers"
+
+  # Serveur PHP
+  php:
+    build: ./nginx/php  # Construction de l'image à partir du Dockerfile situé dans ./nginx/php
+    container_name: php_server
+    volumes:
+      - ./nginx/html:/var/www/html  # Partage du dossier web avec Nginx
+      - ./nginx/php/logs:/var/log/php  # Stockage des logs PHP
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.0.8
+    depends_on:
+      - db  # Attente du démarrage du serveur MySQL
+    restart: unless-stopped  # Redémarrage automatique sauf en cas d'arrêt manuel
+    environment:
+      TZ: "Africa/Algiers"
+
+  # Serveur FTP
+  ftp:
+    image: metabrainz/docker-anon-ftp  # Image utilisée pour le serveur FTP
+    container_name: ftp_server
+    ports:
+      - "2100:21"  # Exposition du port 21 du conteneur sur le port 2100 de l'hôte
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.0.9
+    volumes:
+      - ./ftp/ftp_data:/home  # Dossier FTP accessible aux utilisateurs
+      - ./ftp/vsftpd.conf:/etc/vsftpd.conf  # Configuration du serveur FTP
+      - ./syslog/logs/ftp_server:/var/log # Stockage des logs FTP
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro  # (optionnel mais recommandé)
+    restart: unless-stopped # Redémarrage automatique sauf en cas d'arrêt manuel
+
+  # Système de détection d'intrusions (Snort)   
+  ips:
+    build: ./ips  # Répertoire où se trouve le Dockerfile de Snort
+    container_name: ips_server
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.0.10
+    cap_add:
+      - NET_ADMIN  # Pour permettre l'injection de paquets réseau
+      - SYS_ADMIN
+      - NET_RAW
+    privileged: true  # Pour donner les droits nécessaires
+    volumes:      
+      - ./ips/config/rules:/etc/snort/rules:ro  # Règles de détection d'intrusion
+      - ./syslog/logs/ips_server:/var/log/snort  # Logs Snort
+      - ./ips/config:/etc/snort  # Configuration générale de Snort
+    restart: unless-stopped
+    environment:
+      TZ: "Africa/Algiers"
+
+  # Serveur Syslog (Gestion des logs centralisés)
+  syslog-ng:
+    build: ./syslog  # Construction de l'image Snort à partir du Dockerfile situé >
+    container_name: syslog_server
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.1.11
+    ports:
+      - "5140:514/udp"  # Port UDP pour les logs
+      - "5140:514/tcp"  # Port TCP pour les logs
+    volumes:
+      - ./syslog/config:/etc/syslog-ng  # Configuration Syslog
+      - ./syslog/logs:/var/log/syslog-ng  # Logs centralisés
+    restart: unless-stopped # Redémarrage automatique sauf en cas d'arrêt manuel
+    cap_add:
+      - SYS_ADMIN
+      - NET_ADMIN  # ✅ Ajout des bonnes permissions réseau
+    environment:
+      TZ: "Africa/Algiers"
+
+  # Base de données SQL pour stocker les logs de serveur web
+  db:
+    image: mysql:latest  # Image MySQL la plus récente
+    container_name: db_server
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.0.12
+    environment:
+      MYSQL_ROOT_PASSWORD: root  # Mot de passe root de la base de données
+      MYSQL_DATABASE: mydb  # Nom de la base de données par défaut
+      MYSQL_USER: user  # Utilisateur de la base de données
+      MYSQL_PASSWORD: password  # Mot de passe de l'utilisateur
+      TZ: "Africa/Algiers"
+    volumes:
+      - ./data/mysql:/var/lib/mysql  # Stockage persistant des données MySQL
+      - ./syslog/logs/mysql_server:/var/log/mysql  # Stockage des logs MySQL
+    restart: unless-stopped
+
+  # Interface phpMyAdmin pour MySQL
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin  # Image de phpMyAdmin
+    container_name: phpmyadmin
+    ports:
+      - "8000:80"  # Accès via http://localhost:8000
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.0.13
+    restart: always
+    environment:
+      PMA_HOST: db  # Connexion à la base de données MySQL
+      TZ: "Africa/Algiers"
+      MYSQL_ROOT_PASSWORD: root
+    depends_on:
+      - db  # phpMyAdmin dépend de MySQL
+
+  # Machine utilisateur (Ubuntu)
+  user:
+    image: ubuntu:latest  # Image Ubuntu
+    container_name: user_machine
+    command: sh -c "sleep infinity"  # Maintenir le conteneur actif
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.0.14
+    volumes:
+      - ./user_data:/home/user/data  # Stockage des données utilisateur
+      - ./syslog/logs/user_data:/var/log  # Stockage des logs utilisateur
+    restart: unless-stopped
+    environment:
+      TZ: "Africa/Algiers"
+
+  # Machine d'attaque (Kali Linux)
+  attacker:
+    image: kalilinux/kali-rolling  # Image Kali Linux
+    container_name: attacker_machine
+    networks:
+      elastic-stack-docker-part-one_elastic:
+        ipv4_address: 172.21.0.15
+    command: sh -c "sleep infinity"  # Maintenir le conteneur actif
+    privileged: true
+    cap_add:
+      - SYS_TIME
+    volumes:
+      - ./attacker/scripts:/home/attacker/scripts  # Scripts d'attaque stockés localement
+      - ./syslog/logs/attacker:/var/log  # Stockage des logs Kali
+    restart: unless-stopped
+    environment:
+      TZ: "Africa/Algiers"
+     
+

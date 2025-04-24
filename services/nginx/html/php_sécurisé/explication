@@ -1,0 +1,51 @@
+✅ Résumé des sécurités mises en place :
+
+    ✅ Protection contre l'injection SQL
+        Utilisation de requêtes préparées ($stmt->prepare) pour empêcher les injections SQL.
+
+    ✅ Stockage sécurisé des mots de passe
+        password_hash() est utilisé pour stocker les mots de passe hachés.
+        password_verify() est utilisé pour vérifier le mot de passe lors de la connexion.
+
+    ✅ Vérification des entrées utilisateur
+        Filtrage du nom d'utilisateur : Seuls les caractères alphanumériques et underscores sont autorisés.
+        Validation de l'email avec filter_var().
+        Validation du mot de passe (au moins 8 caractères avec des chiffres et des lettres).
+
+    ✅ Protection contre les attaques par force brute
+        Si un utilisateur échoue 3 fois, la connexion est temporairement bloquée.
+
+    ✅ Protection contre les attaques XSS (Cross-Site Scripting)
+        htmlspecialchars($user["username"]) empêche l’exécution de scripts malveillants.
+
+🚀 Améliorations possibles :
+
+🔹 Ajouter un token CSRF pour empêcher les attaques par requêtes inter-sites.
+🔹 Ajouter un système de vérification par email après l'inscription.
+🔹 Ajouter des logs d'activité pour surveiller les connexions suspectes.
+🔹 Intégrer Google reCAPTCHA pour éviter les attaques automatisées.
+
+Tu veux que je t’aide à améliorer encore plus la sécurité avec un token CSRF ou un reCAPTCHA ? 😊
+--> problème des fichiers ancienne : 
+🔴 Problèmes de sécurité dans login.php :
+
+    Injection SQL possible : Un attaquant peut injecter du code SQL en modifiant les valeurs du formulaire.
+    Mot de passe stocké en clair : Si la base de données est compromise, tous les mots de passe seront lisibles.
+🔴 Problèmes de sécurité dans register.php :
+
+    Injection SQL possible : Un attaquant peut insérer ' OR '1'='1 et se connecter sans mot de passe.
+    Mot de passe non sécurisé : Un attaquant peut récupérer les mots de passe directement depuis la base.
+    Vulnérabilité XSS : L'affichage du nom d'utilisateur sans htmlspecialchars() permet d'exécuter du JavaScript malveillant.
+🚨 Pourquoi ce code est dangereux ?
+
+✅ Un pirate pourrait injecter une requête SQL et prendre le contrôle du compte admin.
+✅ Tous les mots de passe sont stockés en clair et facilement accessibles en cas de fuite de la base.
+✅ L’absence de protection XSS permet à un attaquant d’exécuter des scripts malveillants sur la session de l’utilisateur.
+
+Si tu veux utiliser ce code en production, NE LE FAIS PAS sans ajouter au minimum :
+🔹 Requêtes préparées (prepare et execute) pour bloquer l'injection SQL.
+🔹 Hachage sécurisé (password_hash) pour protéger les mots de passe.
+🔹 htmlspecialchars() pour éviter les attaques XSS.
+🔹 Un système de limitation des tentatives de connexion pour bloquer les attaques par force brute.
+
+Tu veux que je réexplique comment sécuriser ces fichiers ? 😊

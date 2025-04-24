@@ -1,0 +1,35 @@
+strict.perms: false
+
+filebeat.inputs:
+- type: filestream
+  id: default-filestream
+  paths:
+    - /usr/share/filebeat/ingest_data/web/access.log
+    - /usr/share/filebeat/ingest_data/ftp/vsftpd.log
+    - /usr/share/filebeat/ingest_data/mysql/*.log
+    - /usr/share/filebeat/ingest_data/user_data/*.log
+    - /usr/share/filebeat/ingest_data/ips/alert
+    - /usr/share/filebeat/ingest_data/dns/queries.log
+
+filebeat.autodiscover:
+  providers:
+    - type: docker
+      hints.enabled: true
+
+processors:
+- add_docker_metadata: ~
+#- add_host_metadata: ~
+
+setup.kibana:
+  host: ${KIBANA_HOSTS}
+  username: ${ELASTIC_USER}
+  password: ${ELASTIC_PASSWORD} 
+
+
+output.elasticsearch:
+  hosts: ${ELASTIC_HOSTS}
+  pipeline: "main_pipeline"
+  username: ${ELASTIC_USER}
+  password: ${ELASTIC_PASSWORD}
+  ssl.enabled: true
+  ssl.certificate_authorities: "certs/ca/ca.crt"

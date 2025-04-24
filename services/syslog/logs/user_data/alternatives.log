@@ -1,0 +1,18 @@
+update-alternatives 2025-04-11 01:50:55: run with --quiet --install /usr/bin/pager pager /usr/bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+update-alternatives 2025-04-11 01:50:55: link group pager updated to point to /usr/bin/less
+update-alternatives 2025-04-11 01:50:55: run with --install /usr/bin/editor editor /bin/nano 40 --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2025-04-11 01:50:55: link group editor updated to point to /bin/nano
+update-alternatives 2025-04-11 01:50:55: run with --install /usr/bin/pico pico /bin/nano 10 --slave /usr/share/man/man1/pico.1.gz pico.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2025-04-11 01:50:55: link group pico updated to point to /bin/nano
+update-alternatives 2025-04-11 01:52:32: run with --install /usr/bin/ftp ftp /usr/bin/tnftp 120 --slave /usr/share/man/man1/ftp.1.gz ftp.1.gz /usr/share/man/man1/tnftp.1.gz
+update-alternatives 2025-04-11 01:52:32: link group ftp updated to point to /usr/bin/tnftp
+update-alternatives 2025-04-11 01:55:17: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2025-04-16 22:48:09: run with --quiet --install /usr/bin/pager pager /usr/bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+update-alternatives 2025-04-16 22:48:09: link group pager updated to point to /usr/bin/less
+update-alternatives 2025-04-16 22:48:09: run with --install /usr/bin/editor editor /bin/nano 40 --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2025-04-16 22:48:09: link group editor updated to point to /bin/nano
+update-alternatives 2025-04-16 22:48:09: run with --install /usr/bin/pico pico /bin/nano 10 --slave /usr/share/man/man1/pico.1.gz pico.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2025-04-16 22:48:09: link group pico updated to point to /bin/nano
+update-alternatives 2025-04-16 22:48:48: run with --install /usr/bin/ftp ftp /usr/bin/tnftp 120 --slave /usr/share/man/man1/ftp.1.gz ftp.1.gz /usr/share/man/man1/tnftp.1.gz
+update-alternatives 2025-04-16 22:48:48: link group ftp updated to point to /usr/bin/tnftp
+update-alternatives 2025-04-16 22:54:27: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz

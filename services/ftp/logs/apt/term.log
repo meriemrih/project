@@ -1,0 +1,30 @@
+
+Log started: 2025-03-03  12:10:03
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11098 files and directories currently installed.)
+Removing syslog-ng-core (3.35.1-1) ...
+/usr/sbin/policy-rc.d returned 101, not running 'stop syslog.socket'
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of stop.
+Selecting previously unselected package libestr0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10985 files and directories currently installed.)
+Preparing to unpack .../libestr0_0.1.10-2.1build3_amd64.deb ...
+Unpacking libestr0:amd64 (0.1.10-2.1build3) ...
+Selecting previously unselected package libfastjson4:amd64.
+Preparing to unpack .../libfastjson4_0.99.9-1build2_amd64.deb ...
+Unpacking libfastjson4:amd64 (0.99.9-1build2) ...
+Selecting previously unselected package rsyslog.
+Preparing to unpack .../rsyslog_8.2112.0-2ubuntu2.2_amd64.deb ...
+Unpacking rsyslog (8.2112.0-2ubuntu2.2) ...
+Setting up libestr0:amd64 (0.1.10-2.1build3) ...
+Setting up libfastjson4:amd64 (0.99.9-1build2) ...
+Setting up rsyslog (8.2112.0-2ubuntu2.2) ...
+Adding user `syslog' to group `adm' ...
+Adding user syslog to group adm
+Done.
+
+Creating config file /etc/rsyslog.d/50-default.conf with new version
+Created symlink /etc/systemd/system/multi-user.target.wants/dmesg.service → /lib/systemd/system/dmesg.service.
+Created symlink /etc/systemd/system/syslog.service → /lib/systemd/system/rsyslog.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/rsyslog.service → /lib/systemd/system/rsyslog.service.
+Processing triggers for libc-bin (2.35-0ubuntu3.3) ...
+Log ended: 2025-03-03  12:10:04

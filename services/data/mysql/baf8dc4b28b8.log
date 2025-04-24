@@ -1,0 +1,4 @@
+/usr/sbin/mysqld, Version: 9.2.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2025-04-11T01:51:27.727810Z	   13 Query	SET GLOBAL general_log_file = '/var/log/mysql/general.log'

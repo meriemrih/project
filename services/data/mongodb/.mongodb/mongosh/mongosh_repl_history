@@ -1,0 +1,56 @@
+exit
+db.bind9.find().pretty()
+show collections
+use syslog
+show dbs
+use admin
+exit
+db.nginx.find().pretty()
+db.nginx.find().pretty
+show collections
+use syslog
+show dbs
+use admin
+exit
+db.nginx.find().pretty()
+show collections
+db.logs.drop()
+db.nom_de_la_collection.drop()
+delete collection logs
+show collections
+delete logs
+show collections
+use syslog
+show dbs
+use admin
+exit
+show dbs
+use amin
+exit
+db.adminCommand({ getCmdLineOpts: 1 });
+use admin
+db.adminCommand({ getCmdLineOpts: 1 });
+use admin
+db.adminCommand({ getCmdLineOpts: 1 });
+exit
+ls
+db.logs.find().pretty();
+show collections
+use syslog
+show dbs
+use admin
+show dbs
+exit
+db.adminCommand({ getParameter: 1, logpath: 1 })
+exit
+db.logs.find().pretty()
+db.<nom_de_la_collection>.find().pretty()
+show collections
+use syslog
+show dbs;
+use admin
+mongosh "mongodb://root:example@localhost:27017/admin";
+mongosh "mongodb://root:example@localhost:27017/admin"
+exit
+show dbs
+show dbs;

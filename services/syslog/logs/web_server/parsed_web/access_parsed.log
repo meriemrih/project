@@ -1,0 +1,13 @@
+[17/Apr/2025:23:23:46 +0100] 172.21.0.1 GET / -> 200 (2711B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:23:46 +0100] 172.21.0.1 GET /style.css -> 200 (4738B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:23:47 +0100] 172.21.0.1 GET /favicon.ico -> 404 (153B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:23:51 +0100] 172.21.0.1 POST /login.php -> 302 (5B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:23:51 +0100] 172.21.0.1 GET /dashboard.php -> 200 (1842B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:23:51 +0100] 172.21.0.1 GET /favicon.ico -> 404 (153B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:23:52 +0100] 172.21.0.1 GET /logout.php -> 302 (5B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:23:52 +0100] 172.21.0.1 GET /index.html -> 200 (2711B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:23:52 +0100] 172.21.0.1 GET /favicon.ico -> 404 (153B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:29:47 +0100] 172.21.0.1 GET / -> 200 (2711B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:29:47 +0100] 172.21.0.1 GET /style.css -> 304 (0B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:29:51 +0100] 172.21.0.1 POST /login.php -> 302 (5B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+[17/Apr/2025:23:29:51 +0100] 172.21.0.1 GET /dashboard.php -> 200 (1842B) Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0

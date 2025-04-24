@@ -1,0 +1,31 @@
+/usr/sbin/mysqld, Version: 9.2.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2025-02-26T23:08:04.621840Z	    9 Query	SET GLOBAL slow_query_log = 'ON'
+2025-02-26T23:08:04.624069Z	    9 Query	SET GLOBAL slow_query_log_file = '/var/log/mysql/slow.log'
+2025-02-26T23:08:19.824794Z	    9 Query	SHOW VARIABLES LIKE 'general_log%'
+2025-02-26T23:08:19.841976Z	    9 Query	SHOW VARIABLES LIKE 'slow_query_log%'
+2025-02-26T23:08:44.586349Z	    9 Quit	
+2025-02-26T23:09:16.300717Z	   10 Connect	root@localhost on bash using Socket
+2025-02-26T23:09:16.300751Z	   10 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+2025-02-26T23:19:29.208836Z	   11 Connect	root@192.168.203.6 on sonalgaz_db using TCP/IP
+2025-02-26T23:19:29.217387Z	   11 Prepare	SELECT * FROM users WHERE username = 'ikramsbn' AND password = 'ikram123'
+2025-02-26T23:19:29.217533Z	   11 Execute	SELECT * FROM users WHERE username = 'ikramsbn' AND password = 'ikram123'
+2025-02-26T23:19:29.220104Z	   11 Close stmt	
+2025-02-26T23:19:29.220141Z	   11 Quit	
+/usr/sbin/mysqld, Version: 9.2.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2025-03-25T11:33:47.221155Z	   32 Query	SET GLOBAL slow_query_log = 'ON'
+2025-03-25T11:33:47.223327Z	   32 Query	SET GLOBAL slow_query_log_file = '/var/log/mysql/slow.log'
+2025-03-25T11:33:55.294346Z	   32 Query	SHOW VARIABLES LIKE 'general_log%'
+2025-03-25T11:34:00.942919Z	   32 Query	SHOW VARIABLES LIKE 'slow_query_log%'
+2025-03-25T11:34:22.566839Z	   32 Quit	
+/usr/sbin/mysqld, Version: 9.2.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2025-04-08T11:15:45.573699Z	    9 Query	SET GLOBAL slow_query_log = 'ON'
+2025-04-08T11:15:45.575312Z	    9 Query	SET GLOBAL slow_query_log_file = '/var/log/mysql/slow.log'
+2025-04-08T11:16:01.410883Z	    9 Query	SHOW VARIABLES LIKE 'general_log%'
+2025-04-08T11:16:01.417436Z	    9 Query	SHOW VARIABLES LIKE 'slow_query_log%'
+2025-04-08T11:19:36.385885Z	    9 Quit	

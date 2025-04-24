@@ -1,0 +1,24 @@
+update-alternatives 2025-04-11 02:52:00: run with --quiet --install /usr/bin/pager pager /usr/bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+update-alternatives 2025-04-11 02:52:00: link group pager updated to point to /usr/bin/less
+update-alternatives 2025-04-11 02:52:00: run with --install /usr/bin/editor editor /bin/nano 40 --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2025-04-11 02:52:00: link group editor updated to point to /bin/nano
+update-alternatives 2025-04-11 02:52:00: run with --install /usr/bin/pico pico /bin/nano 10 --slave /usr/share/man/man1/pico.1.gz pico.1.gz /usr/share/man/man1/nano.1.gz
+update-alternatives 2025-04-11 02:52:00: link group pico updated to point to /bin/nano
+update-alternatives 2025-04-11 02:53:58: run with --install /usr/bin/traceroute traceroute /usr/bin/traceroute.db 100 --slave /usr/sbin/traceroute traceroute.sbin /usr/bin/traceroute.db --slave /usr/share/man/man1/traceroute.1.gz traceroute.1.gz /usr/share/man/man1/traceroute.db.1.gz
+update-alternatives 2025-04-11 02:53:58: link group traceroute updated to point to /usr/bin/traceroute.db
+update-alternatives 2025-04-11 02:53:58: run with --install /usr/bin/traceroute6 traceroute6 /usr/bin/traceroute6.db 100 --slave /usr/share/man/man1/traceroute6.1.gz traceroute6.1.gz /usr/share/man/man1/traceroute6.db.1.gz
+update-alternatives 2025-04-11 02:53:58: link group traceroute6 updated to point to /usr/bin/traceroute6.db
+update-alternatives 2025-04-11 02:53:58: run with --install /usr/bin/lft lft /usr/bin/lft.db 100 --slave /usr/share/man/man1/lft.1.gz lft.1.gz /usr/share/man/man1/lft.db.1.gz
+update-alternatives 2025-04-11 02:53:58: link group lft updated to point to /usr/bin/lft.db
+update-alternatives 2025-04-11 02:53:58: run with --install /usr/bin/traceproto traceproto /usr/bin/traceproto.db 100 --slave /usr/share/man/man1/traceproto.1.gz traceproto.1.gz /usr/share/man/man1/traceproto.db.1.gz
+update-alternatives 2025-04-11 02:53:58: link group traceproto updated to point to /usr/bin/traceproto.db
+update-alternatives 2025-04-11 02:53:58: run with --install /usr/sbin/tcptraceroute tcptraceroute /usr/sbin/tcptraceroute.db 100 --slave /usr/share/man/man8/tcptraceroute.8.gz tcptraceroute.8.gz /usr/share/man/man8/tcptraceroute.db.8.gz
+update-alternatives 2025-04-11 02:53:58: link group tcptraceroute updated to point to /usr/sbin/tcptraceroute.db
+update-alternatives 2025-04-11 02:53:58: run with --install /usr/lib/x86_64-linux-gnu/libblas.so.3 libblas.so.3-x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/blas/libblas.so.3 10
+update-alternatives 2025-04-11 02:53:58: link group libblas.so.3-x86_64-linux-gnu updated to point to /usr/lib/x86_64-linux-gnu/blas/libblas.so.3
+update-alternatives 2025-04-11 03:02:53: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/my.cnf.fallback 100
+update-alternatives 2025-04-11 03:02:53: link group my.cnf updated to point to /etc/mysql/my.cnf.fallback
+update-alternatives 2025-04-11 03:02:53: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mariadb.cnf 200
+update-alternatives 2025-04-11 03:02:53: link group my.cnf updated to point to /etc/mysql/mariadb.cnf
+update-alternatives 2025-04-11 03:14:12: run with --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons/Adwaita/cursor.theme 90
+update-alternatives 2025-04-11 03:14:12: link group x-cursor-theme updated to point to /usr/share/icons/Adwaita/cursor.theme

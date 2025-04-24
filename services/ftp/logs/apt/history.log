@@ -1,0 +1,6 @@
+
+Start-Date: 2025-03-03  12:10:03
+Commandline: apt-get install -y rsyslog
+Install: libfastjson4:amd64 (0.99.9-1build2, automatic), rsyslog:amd64 (8.2112.0-2ubuntu2.2), libestr0:amd64 (0.1.10-2.1build3, automatic)
+Remove: syslog-ng-core:amd64 (3.35.1-1)
+End-Date: 2025-03-03  12:10:04

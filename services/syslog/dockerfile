@@ -1,0 +1,29 @@
+# Utilisation d'Ubuntu comme base
+FROM ubuntu:latest
+
+# Mise à jour et installation des dépendances
+RUN apt update && apt install -y \
+    gnupg \
+    wget \
+    nano \
+    && apt clean
+
+# Ajout du dépôt officiel de syslog-ng
+RUN echo "deb https://ose-repo.syslog-ng.com/apt stable main" > /etc/apt/sources.list.d/syslog-ng.list && \
+    wget -qO - https://ose-repo.syslog-ng.com/apt/syslog-ng-ose-pub.asc | apt-key add -
+
+# Ajout du dépôt officiel de MongoDB
+RUN wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | gpg --dearmor -o /usr/share/keyrings/mongodb-keyring.gpg && \
+    echo "deb [signed-by=/usr/share/keyrings/mongodb-keyring.gpg] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+
+# Installation de syslog-ng avec le support MongoDB et du client MongoDB
+RUN apt update && apt install -y \
+    syslog-ng \
+    syslog-ng-mod-mongodb \
+    syslog-ng-core \
+    mongodb-org-shell \
+    && apt clean
+
+# Commande par défaut pour démarrer syslog-ng
+CMD ["/usr/sbin/syslog-ng", "-F"]
+

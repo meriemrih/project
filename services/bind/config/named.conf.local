@@ -1,0 +1,5 @@
+zone "sonalgaz.com" {
+    type master;  # Ce serveur est l'autorité principale pour ce domaine
+    file "/etc/bind/zones/db.sonalgaz.com";  # Chemin du fichier contenant les enregistrements DNS
+};
+

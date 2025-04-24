@@ -1,0 +1,33 @@
+2025-03-03 12:10:03 startup packages remove
+2025-03-03 12:10:03 status installed syslog-ng-core:amd64 3.35.1-1
+2025-03-03 12:10:03 remove syslog-ng-core:amd64 3.35.1-1 <none>
+2025-03-03 12:10:03 status half-configured syslog-ng-core:amd64 3.35.1-1
+2025-03-03 12:10:03 status half-installed syslog-ng-core:amd64 3.35.1-1
+2025-03-03 12:10:03 status config-files syslog-ng-core:amd64 3.35.1-1
+2025-03-03 12:10:03 startup archives unpack
+2025-03-03 12:10:03 install libestr0:amd64 <none> 0.1.10-2.1build3
+2025-03-03 12:10:03 status triggers-pending libc-bin:amd64 2.35-0ubuntu3.3
+2025-03-03 12:10:03 status half-installed libestr0:amd64 0.1.10-2.1build3
+2025-03-03 12:10:04 status unpacked libestr0:amd64 0.1.10-2.1build3
+2025-03-03 12:10:04 install libfastjson4:amd64 <none> 0.99.9-1build2
+2025-03-03 12:10:04 status half-installed libfastjson4:amd64 0.99.9-1build2
+2025-03-03 12:10:04 status unpacked libfastjson4:amd64 0.99.9-1build2
+2025-03-03 12:10:04 install rsyslog:amd64 <none> 8.2112.0-2ubuntu2.2
+2025-03-03 12:10:04 status half-installed rsyslog:amd64 8.2112.0-2ubuntu2.2
+2025-03-03 12:10:04 status unpacked rsyslog:amd64 8.2112.0-2ubuntu2.2
+2025-03-03 12:10:04 startup packages configure
+2025-03-03 12:10:04 configure libestr0:amd64 0.1.10-2.1build3 <none>
+2025-03-03 12:10:04 status unpacked libestr0:amd64 0.1.10-2.1build3
+2025-03-03 12:10:04 status half-configured libestr0:amd64 0.1.10-2.1build3
+2025-03-03 12:10:04 status installed libestr0:amd64 0.1.10-2.1build3
+2025-03-03 12:10:04 configure libfastjson4:amd64 0.99.9-1build2 <none>
+2025-03-03 12:10:04 status unpacked libfastjson4:amd64 0.99.9-1build2
+2025-03-03 12:10:04 status half-configured libfastjson4:amd64 0.99.9-1build2
+2025-03-03 12:10:04 status installed libfastjson4:amd64 0.99.9-1build2
+2025-03-03 12:10:04 configure rsyslog:amd64 8.2112.0-2ubuntu2.2 <none>
+2025-03-03 12:10:04 status unpacked rsyslog:amd64 8.2112.0-2ubuntu2.2
+2025-03-03 12:10:04 status half-configured rsyslog:amd64 8.2112.0-2ubuntu2.2
+2025-03-03 12:10:04 status installed rsyslog:amd64 8.2112.0-2ubuntu2.2
+2025-03-03 12:10:04 trigproc libc-bin:amd64 2.35-0ubuntu3.3 <none>
+2025-03-03 12:10:04 status half-configured libc-bin:amd64 2.35-0ubuntu3.3
+2025-03-03 12:10:04 status installed libc-bin:amd64 2.35-0ubuntu3.3

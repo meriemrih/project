@@ -1,0 +1,75 @@
+Feb 27 19:25:58 f5b0d7fd9185 groupadd[47]: group added to /etc/group: name=ikramsbn, GID=1000
+Feb 27 19:25:58 f5b0d7fd9185 groupadd[47]: group added to /etc/gshadow: name=ikramsbn
+Feb 27 19:25:58 f5b0d7fd9185 groupadd[47]: new group: name=ikramsbn, GID=1000
+Feb 27 19:25:58 f5b0d7fd9185 useradd[54]: new user: name=ikramsbn, UID=1000, GID=1000, home=/home/ikramsbn, shell=/bin/bash, from=/dev/pts/0
+Feb 27 19:26:16 f5b0d7fd9185 chfn[63]: changed user 'ikramsbn' information
+Feb 27 19:26:23 f5b0d7fd9185 chfn[70]: changed user 'ikramsbn' information
+Feb 27 19:26:35 f5b0d7fd9185 chfn[76]: changed user 'ikramsbn' information
+Feb 27 19:26:42 f5b0d7fd9185 passwd[83]: pam_unix(passwd:chauthtok): password changed for ikramsbn
+Feb 27 20:17:01 f5b0d7fd9185 CRON[89]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 27 20:17:01 f5b0d7fd9185 CRON[89]: pam_unix(cron:session): session closed for user root
+Feb 27 21:01:48 a687247f1d92 groupadd[46]: group added to /etc/group: name=ikramsbn, GID=1000
+Feb 27 21:01:48 a687247f1d92 groupadd[46]: group added to /etc/gshadow: name=ikramsbn
+Feb 27 21:01:48 a687247f1d92 groupadd[46]: new group: name=ikramsbn, GID=1000
+Feb 27 21:01:48 a687247f1d92 useradd[53]: new user: name=ikramsbn, UID=1000, GID=1000, home=/home/ikramsbn, shell=/bin/bash, from=/dev/pts/0
+Feb 27 21:01:54 a687247f1d92 passwd[60]: pam_unix(passwd:chauthtok): password changed for ikramsbn
+Feb 27 21:02:02 a687247f1d92 chfn[61]: changed user 'ikramsbn' information
+Feb 27 21:02:10 a687247f1d92 passwd[67]: pam_unix(passwd:chauthtok): password changed for ikramsbn
+Feb 27 21:17:01 a687247f1d92 CRON[75]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 27 21:17:01 a687247f1d92 CRON[75]: pam_unix(cron:session): session closed for user root
+Feb 27 22:17:01 a687247f1d92 CRON[80]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 27 22:17:01 a687247f1d92 CRON[80]: pam_unix(cron:session): session closed for user root
+Feb 27 23:17:01 a687247f1d92 CRON[84]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 27 23:17:01 a687247f1d92 CRON[84]: pam_unix(cron:session): session closed for user root
+Feb 28 21:17:01 a687247f1d92 CRON[32]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 28 21:17:01 a687247f1d92 CRON[32]: pam_unix(cron:session): session closed for user root
+Feb 28 22:17:01 a687247f1d92 CRON[32]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 28 22:17:01 a687247f1d92 CRON[32]: pam_unix(cron:session): session closed for user root
+Feb 28 23:17:01 a687247f1d92 CRON[37]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 28 23:17:01 a687247f1d92 CRON[37]: pam_unix(cron:session): session closed for user root
+Mar  1 22:17:01 a687247f1d92 CRON[41]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  1 22:17:01 a687247f1d92 CRON[41]: pam_unix(cron:session): session closed for user root
+Mar  1 23:17:01 a687247f1d92 CRON[46]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  1 23:17:01 a687247f1d92 CRON[46]: pam_unix(cron:session): session closed for user root
+Mar  2 21:17:01 a687247f1d92 CRON[646]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  2 21:17:01 a687247f1d92 CRON[646]: pam_unix(cron:session): session closed for user root
+Mar  2 22:17:01 a687247f1d92 CRON[4181]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  2 22:17:01 a687247f1d92 CRON[4181]: pam_unix(cron:session): session closed for user root
+Mar  2 23:17:01 a687247f1d92 CRON[7715]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  2 23:17:01 a687247f1d92 CRON[7715]: pam_unix(cron:session): session closed for user root
+Mar  3 00:17:01 a687247f1d92 CRON[11252]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  3 00:17:01 a687247f1d92 CRON[11252]: pam_unix(cron:session): session closed for user root
+Mar  3 01:17:01 a687247f1d92 CRON[14789]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  3 01:17:01 a687247f1d92 CRON[14789]: pam_unix(cron:session): session closed for user root
+Mar  3 02:17:01 a687247f1d92 CRON[18332]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  3 02:17:01 a687247f1d92 CRON[18332]: pam_unix(cron:session): session closed for user root
+Mar  3 11:17:01 a687247f1d92 CRON[2350]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar  3 11:17:01 a687247f1d92 CRON[2350]: pam_unix(cron:session): session closed for user root
+Mar  3 12:10:04 a687247f1d92 groupadd[5809]: group added to /etc/group: name=syslog, GID=108
+Mar  3 12:10:04 a687247f1d92 groupadd[5809]: group added to /etc/gshadow: name=syslog
+Mar  3 12:10:04 a687247f1d92 groupadd[5809]: new group: name=syslog, GID=108
+Mar  3 12:10:04 a687247f1d92 useradd[5816]: new user: name=syslog, UID=106, GID=108, home=/home/syslog, shell=/usr/sbin/nologin, from=/dev/pts/1
+Mar  3 12:10:04 a687247f1d92 usermod[5823]: change user 'syslog' password
+Mar  3 12:10:04 a687247f1d92 chage[5830]: changed password expiry for syslog
+Mar  3 12:10:04 a687247f1d92 gpasswd[5835]: user syslog added by root to group adm
+Mar 25 11:34:37 1ec2cef7c628 groupadd[231]: group added to /etc/group: name=ikramsbn, GID=1000
+Mar 25 11:34:37 1ec2cef7c628 groupadd[231]: group added to /etc/gshadow: name=ikramsbn
+Mar 25 11:34:37 1ec2cef7c628 groupadd[231]: new group: name=ikramsbn, GID=1000
+Mar 25 11:34:37 1ec2cef7c628 useradd[238]: new user: name=ikramsbn, UID=1000, GID=1000, home=/home/ikramsbn, shell=/bin/bash, from=/dev/pts/0
+Mar 25 11:34:47 1ec2cef7c628 passwd[245]: pam_unix(passwd:chauthtok): password changed for ikramsbn
+Mar 25 11:34:54 1ec2cef7c628 chfn[256]: changed user 'ikramsbn' information
+Mar 25 11:35:03 1ec2cef7c628 passwd[271]: pam_unix(passwd:chauthtok): password changed for ikramsbn
+Mar 25 12:17:01 1ec2cef7c628 CRON[1973]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 25 12:17:01 1ec2cef7c628 CRON[1973]: pam_unix(cron:session): session closed for user root
+Mar 25 13:17:01 1ec2cef7c628 CRON[5514]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Mar 25 13:17:01 1ec2cef7c628 CRON[5514]: pam_unix(cron:session): session closed for user root
+Apr  7 19:17:01 1ec2cef7c628 CRON[1527]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 19:17:01 1ec2cef7c628 CRON[1527]: pam_unix(cron:session): session closed for user root
+Apr  7 20:17:01 1ec2cef7c628 CRON[5069]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 20:17:01 1ec2cef7c628 CRON[5069]: pam_unix(cron:session): session closed for user root
+Apr  7 21:17:01 1ec2cef7c628 CRON[8594]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 21:17:01 1ec2cef7c628 CRON[8594]: pam_unix(cron:session): session closed for user root
+Apr  7 22:17:01 1ec2cef7c628 CRON[12124]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 22:17:01 1ec2cef7c628 CRON[12124]: pam_unix(cron:session): session closed for user root
+Apr  7 23:17:01 1ec2cef7c628 CRON[15664]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Apr  7 23:17:01 1ec2cef7c628 CRON[15664]: pam_unix(cron:session): session closed for user root

